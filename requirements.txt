@@ -1,0 +1,8 @@
+opencv-python==4.10.0.84
+plotly
+PyOpenGL==3.1.7
+matplotlib
+selenium
+pyttsx3
+pandas
+seaborn

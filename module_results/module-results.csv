@@ -1,0 +1,33 @@
+year,semester,module_code,module_name,score,grade
+2021/22,SEM2,CC4057NI,Data Model with Learning Reflection,67,B
+2021/22,SEM2,CC4057NI,Information System with Report,65,B
+2021/22,SEM2,CC4057NI,Website with Report,71,A
+2021/22,SUMMER,CS4051NI,Numerical Data Program with Report,73,A
+2021/22,SUMMER,CS4051NI,Multiple choice test,92,A
+2021/22,TERM2,CS4001NI,Coursework 1,64,B
+2021/22,TERM2,CS4001NI,Coursework 2,70,A
+2021/22,TERM2,CS4001NI,Online multiple choice test,75,A
+2021/22,TERM2,CT4005NI,Unseen Practical Examination (1 hour),87,A
+2021/22,TERM2,CT4005NI,Unseen Theory Examination (2 hours),90,A
+2021/22,TERM2,CT4005NI,Progress Tests,94,A
+2021/22,TERM2,MA4001NI,Group coursework (2500 words),89,A
+2021/22,TERM2,MA4001NI,Test 1 (1 hour unseen),98,A
+2021/22,TERM2,MA4001NI,Test 2 (1 hour unseen),100,A
+2022/23,SEM1,CC5051NI,Case study - design and implementation (1000 words + a combination of 20 entities/relationships/queries),72,A
+2022/23,SEM1,CC5051NI,In-Class Test (2 Hours),77,A
+2022/23,SEM1,CS5053NI,Logbook + Case-Study Report (1500 words),66,B
+2022/23,SEM1,CS5053NI,2-hour unseen exam,70,A
+2022/23,SEM1,CT5052NI,Unseen Theory Exam (1.5 hours),70,A
+2022/23,SEM1,CT5052NI,Practical Exam (1.5 hours),100,A
+2022/23,SEM1,CT5052NI,Progress Test,84,A
+2022/23,SEM2,CC5067NI,Individual Business data analytical report [1500 words + analytical output and evaluation],78,A
+2022/23,SEM2,CC5067NI,2 hour unseen exam.,78,A
+2022/23,SEM2,CS5052NI,Written Report (1800-2000 words or equivalent),71,A
+2022/23,SEM2,CS5052NI,2 hours Unseen Exam,62,B
+2022/23,SEM2,CS5054NI,Group work: 1300 words + software (or equivalent) per student,73,A
+2022/23,SEM2,CS5054NI,Unseen Exam Hours,77,A
+2022/23,YEAR,CS5002NI,Group C/W 1000 words + diagrams (or equivalent) per student,64,B
+2022/23,YEAR,CS5002NI,Individual C/W 1500 words + diagrams (or equivalent) per student,70,A
+2022/23,YEAR,CS5002NI,Two hours unseen Exam(part-seen),72,A
+2023/24,SEM1,CU6051NI,Documentation,56,C
+2023/24,SEM1,CU6051NI,Artefact + documentation,71,A
