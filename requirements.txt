@@ -6,3 +6,4 @@ selenium
 pyttsx3
 pandas
 seaborn
+python-slugify
