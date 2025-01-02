@@ -6,6 +6,8 @@ import random
 import re
 import sys
 
+# I DID THIS BY MYSELFFFFFFFFFF.
+
 
 def convert_decimal_int_to_binary(decimal_int: int):
     binary_str = ""
@@ -15,7 +17,7 @@ def convert_decimal_int_to_binary(decimal_int: int):
 
     def recursive_func(decimal_int: int):
         nonlocal binary_str
-        print(decimal_int, type(decimal_int), binary_str)
+        # print(decimal_int, type(decimal_int), binary_str)
         if decimal_int == 1:
             return "1" + binary_str
         elif decimal_int == 0:
@@ -31,8 +33,15 @@ def convert_decimal_int_to_binary(decimal_int: int):
     return recursive_func(decimal_int)
 
 
+def get_max_one_from_binary(binary: str):
+    split_binary = binary.split("0")
+    return max(split_binary)
+
+
 if __name__ == "__main__":
     n = int(input().strip())
     binary = convert_decimal_int_to_binary(n)
-
-    print(binary)
+    max_one = get_max_one_from_binary(binary)
+    length = len(max_one)
+    # print(binary)
+    print(length)
