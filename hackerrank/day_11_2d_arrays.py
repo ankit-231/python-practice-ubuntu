@@ -27,6 +27,28 @@ from typing import Dict, List, Tuple
 (5, 0) (5, 1) (5, 2) (5, 3) (5, 4) (5, 5)
 """
 
+"""
+arr = [
+        [-1, -1, 0, -9, -2, -2],
+        [-2, -1, -6, -8, -2, -5],
+        [-1, -1, -1, -2, -3, -4],
+        [-1, -9, -2, -4, -4, -5],
+        [-7, -3, -3, -2, -9, -9],
+        [-1, -3, -1, -2, -4, -5],
+    ]
+    
+arr = [
+    [0, -4, -6, 0, -7, -6],
+    [0, -4, -6, 0, -7, -6],
+    [-1, -2, -6, -8, -3, -1],
+    [-8, -4, -2, -8, -8, -6],
+    [-3, -1, -2, -5, -7, -4],
+    [-3, -5, -3, -6, -6, -6],
+    [-3, -6, 0, -8, -6, -7],
+]
+
+"""
+
 # First we extract all possible 3x3
 # Take the first row
 # Take the third row
@@ -150,8 +172,11 @@ def calculate_sum_of_hourglass(hourglass_dict: Dict[int, List[int]]):
 
 def get_max_hourglass(hourglass_sum_di: Dict[int, int]):
     # print(hourglass_sum_di, "hourglass_sum_di", type(hourglass_sum_di))
-    max_sum = 0
+    max_sum = None
     for key, value in hourglass_sum_di.items():
+        if max_sum is None:
+            max_sum = value
+
         if value > max_sum:
             max_sum = value
     return max_sum
@@ -166,7 +191,6 @@ def hourglass_factory(arr: two_d_arr):
 
 if __name__ == "__main__":
     arr = []
-
     for _ in range(6):
         arr.append(list(map(int, input().rstrip().split())))
     # arr = [
@@ -180,5 +204,32 @@ if __name__ == "__main__":
     print(hourglass_factory(arr))
     # print(get_hourglass_coordinate_from_i_j(0, 0))
 
-# BELOW IS LINK TO THE CODE I FOUND IN GITHUB:
-# https://github.com/nathan-abela/HackerRank-Solutions/blob/master/30%20Days%20of%20Code/Python/12%20-%20Day%2011%20-%202D%20Arrays.py
+# # BELOW IS LINK TO THE CODE I FOUND IN GITHUB:
+# # https://github.com/nathan-abela/HackerRank-Solutions/blob/master/30%20Days%20of%20Code/Python/12%20-%20Day%2011%20-%202D%20Arrays.py
+
+# if __name__ == "__main__":
+#     ARRAY = []
+#     ARRAY = [
+#         [-1, -1, 0, -9, -2, -2],
+#         [-2, -1, -6, -8, -2, -5],
+#         [-1, -1, -1, -2, -3, -4],
+#         [-1, -9, -2, -4, -4, -5],
+#         [-7, -3, -3, -2, -9, -9],
+#         [-1, -3, -1, -2, -4, -5],
+#     ]
+
+#     ADD = []
+#     MAX_SUM = []
+
+#     # for _ in range(6):
+#     #     ARRAY.append(list(map(int, input().rstrip().split())))
+
+#     for i in range(len(ARRAY) - 2):
+#         for j in range(4):
+#             ADD.extend(ARRAY[i][j : j + 3])
+#             ADD.append(ARRAY[i + 1][j + 1])
+#             ADD.extend(ARRAY[i + 2][j : j + 3])
+#             MAX_SUM.append(sum(ADD))
+#             ADD = []
+
+#     print(max(MAX_SUM))
