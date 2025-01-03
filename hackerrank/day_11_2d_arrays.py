@@ -1,5 +1,7 @@
 #!/bin/python3
 
+# BELOW IS MY SOLUTION (Done with no reference)
+
 import math
 import os
 import random
@@ -177,3 +179,6 @@ if __name__ == "__main__":
     # ]
     print(hourglass_factory(arr))
     # print(get_hourglass_coordinate_from_i_j(0, 0))
+
+# BELOW IS LINK TO THE CODE I FOUND IN GITHUB:
+# https://github.com/nathan-abela/HackerRank-Solutions/blob/master/30%20Days%20of%20Code/Python/12%20-%20Day%2011%20-%202D%20Arrays.py
