@@ -3,7 +3,7 @@ import sys
 
 
 def get_slug(text):
-    return slugify(text)
+    return slugify(text, separator="_")
 
 
 if __name__ == "__main__":
