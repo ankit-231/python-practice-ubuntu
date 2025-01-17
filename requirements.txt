@@ -7,3 +7,5 @@ pyttsx3
 pandas
 seaborn
 python-slugify
+requests
+beautifulsoup4

@@ -1,0 +1,3190 @@
+{
+    "templates": [],
+    "mods": {
+        "filter": {
+            "tItemType": "nt_filter",
+            "filterItems": [
+                {
+                    "name": "category",
+                    "unfoldRow": "2",
+                    "title": "Category",
+                    "urlKey": "category",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "category",
+                    "uniqueName": "category",
+                    "value": "",
+                    "displayValue": "",
+                    "options": [
+                        {
+                            "url": "/baking-tools-accessories//?q=sugar",
+                            "title": "Baking Tools & Accessories",
+                            "value": "baking-tools-accessories"
+                        },
+                        {
+                            "url": "/flours-food//?q=sugar",
+                            "title": "Flour",
+                            "value": "flours-food"
+                        },
+                        {
+                            "url": "/groceries-baking-cooking-home-baking-sugar-natural-sweeteners//?q=sugar",
+                            "title": "Natural Sweeteners",
+                            "value": "groceries-baking-cooking-home-baking-sugar-natural-sweeteners"
+                        },
+                        {
+                            "url": "/cutlery//?q=sugar",
+                            "title": "Cutlery",
+                            "value": "cutlery"
+                        },
+                        {
+                            "url": "/groceries-baking-cooking-home-baking-sugar-baking-needs//?q=sugar",
+                            "title": "Baking Needs",
+                            "value": "groceries-baking-cooking-home-baking-sugar-baking-needs"
+                        },
+                        {
+                            "url": "/womens-diy-jewellery-accessories//?q=sugar",
+                            "title": "Women Fashion DIY accessories",
+                            "value": "womens-diy-jewellery-accessories"
+                        },
+                        {
+                            "url": "/whole-spices-seeds-herbs//?q=sugar",
+                            "title": "Herbs & Spices",
+                            "value": "whole-spices-seeds-herbs"
+                        },
+                        {
+                            "url": "/sugar-packages//?q=sugar",
+                            "title": "Sugar",
+                            "value": "sugar-packages"
+                        },
+                        {
+                            "url": "/hb-face//?q=sugar",
+                            "title": "Face Skin Care Tools",
+                            "value": "hb-face"
+                        },
+                        {
+                            "url": "/tea//?q=sugar",
+                            "title": "Tea",
+                            "value": "tea"
+                        },
+                        {
+                            "url": "/groceries-baking-cooking-home-baking-sugar-baking-chocolates-cocoa//?q=sugar",
+                            "title": "Baking Chocolates & Cocoa",
+                            "value": "groceries-baking-cooking-home-baking-sugar-baking-chocolates-cocoa"
+                        },
+                        {
+                            "url": "/biscuits-cookies//?q=sugar",
+                            "title": "Biscuit",
+                            "value": "biscuits-cookies"
+                        },
+                        {
+                            "url": "/bakeware-sets//?q=sugar",
+                            "title": "Bakeware Sets",
+                            "value": "bakeware-sets"
+                        },
+                        {
+                            "url": "/groceries-baking-cooking-home-baking-sugar-extract-flavoring//?q=sugar",
+                            "title": "Extract & Flavoring",
+                            "value": "groceries-baking-cooking-home-baking-sugar-extract-flavoring"
+                        },
+                        {
+                            "url": "/groceries-baking-cooking-home-baking-sugar-bread-cake-cookie-mixes//?q=sugar",
+                            "title": "Bread, Cake, Cookie & Mixes",
+                            "value": "groceries-baking-cooking-home-baking-sugar-bread-cake-cookie-mixes"
+                        },
+                        {
+                            "url": "/blood-glucose-monitor//?q=sugar",
+                            "title": "Blood Glucose Monitor",
+                            "value": "blood-glucose-monitor"
+                        },
+                        {
+                            "url": "/baking-supplies//?q=sugar",
+                            "title": "Baking Accessories",
+                            "value": "baking-supplies"
+                        },
+                        {
+                            "url": "/groceries-baking-cooking-home-baking-sugar-sugar-cubes-sticks-coffee-crystals//?q=sugar",
+                            "title": "Sugar Cubes, Sticks & Crystals",
+                            "value": "groceries-baking-cooking-home-baking-sugar-sugar-cubes-sticks-coffee-crystals"
+                        },
+                        {
+                            "url": "/cereal//?q=sugar",
+                            "title": "Breakfast Cereals",
+                            "value": "cereal"
+                        },
+                        {
+                            "url": "/womens-lipstick//?q=sugar",
+                            "title": "Lipsticks",
+                            "value": "womens-lipstick"
+                        }
+                    ]
+                },
+                {
+                    "name": "brand",
+                    "unfoldRow": "-1",
+                    "title": "Brand",
+                    "urlKey": "ppath",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "brand",
+                    "uniqueName": "20000",
+                    "options": [
+                        {
+                            "title": "Ramailo",
+                            "value": "ramailo-126999257"
+                        },
+                        {
+                            "title": "HiLife",
+                            "value": "hilife"
+                        },
+                        {
+                            "title": "Ramro",
+                            "value": "ramro-123437053"
+                        },
+                        {
+                            "title": "Didian",
+                            "value": "didian-203154"
+                        },
+                        {
+                            "title": "Britannia",
+                            "value": "britannia"
+                        },
+                        {
+                            "title": "OSOAA",
+                            "value": "osoaa-124005242"
+                        },
+                        {
+                            "title": "Aashirvaad",
+                            "value": "aashirvaad"
+                        },
+                        {
+                            "title": "OKF",
+                            "value": "okf"
+                        },
+                        {
+                            "title": "Ratna Book",
+                            "value": "ratna-book"
+                        },
+                        {
+                            "title": "Melao",
+                            "value": "melao"
+                        }
+                    ]
+                },
+                {
+                    "name": "service",
+                    "unfoldRow": "4",
+                    "title": "Service & Promotion",
+                    "urlKey": "service",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "multiple",
+                    "uniqueName": "service",
+                    "options": [
+                        {
+                            "title": "Mall",
+                            "value": "mall",
+                            "activeIcon": "",
+                            "normalIcon": ""
+                        },
+                        {
+                            "title": "Free Delivery",
+                            "value": "Free_Delivery",
+                            "activeIcon": "",
+                            "normalIcon": ""
+                        },
+                        {
+                            "title": "Gems",
+                            "value": "coins",
+                            "activeIcon": "",
+                            "normalIcon": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "location",
+                    "unfoldRow": "3",
+                    "title": "Shipped From",
+                    "urlKey": "location",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "location",
+                    "uniqueName": "location",
+                    "value": [],
+                    "options": [
+                        {
+                            "title": "Bagmati Province",
+                            "value": "Bagmati Province"
+                        },
+                        {
+                            "title": "Koshi Province",
+                            "value": "Koshi Province"
+                        },
+                        {
+                            "title": "Madhesh Province",
+                            "value": "Madhesh Province"
+                        },
+                        {
+                            "title": "Lumbini Province",
+                            "value": "Lumbini Province"
+                        },
+                        {
+                            "title": "Sudurpashchim Province",
+                            "value": "Sudurpashchim Province"
+                        },
+                        {
+                            "title": "Gandaki Province",
+                            "value": "Gandaki Province"
+                        },
+                        {
+                            "title": "Local",
+                            "value": "Local"
+                        },
+                        {
+                            "title": "Overseas",
+                            "value": "Overseas"
+                        }
+                    ]
+                },
+                {
+                    "showMin": "Min",
+                    "showMax": "Max",
+                    "name": "price",
+                    "unfoldRow": "2",
+                    "title": "Price",
+                    "urlKey": "price",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "price",
+                    "uniqueName": "price"
+                },
+                {
+                    "name": "rating",
+                    "unfoldRow": "2",
+                    "title": "Rating",
+                    "urlKey": "rating",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "rating",
+                    "uniqueName": "rating",
+                    "value": "0"
+                },
+                {
+                    "name": "attribute",
+                    "unfoldRow": "-1",
+                    "title": "Warranty Type",
+                    "urlKey": "ppath",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "multiple",
+                    "uniqueName": "7",
+                    "options": [
+                        {
+                            "title": "No Warranty",
+                            "value": "7:4498"
+                        },
+                        {
+                            "title": "Seller Warranty",
+                            "value": "7:123708611"
+                        },
+                        {
+                            "title": "Brand Warranty",
+                            "value": "7:202300"
+                        },
+                        {
+                            "title": "100 % original product",
+                            "value": "7:202276"
+                        },
+                        {
+                            "title": "Local seller warranty",
+                            "value": "7:4492"
+                        }
+                    ]
+                },
+                {
+                    "name": "attribute",
+                    "unfoldRow": "-1",
+                    "title": "Delivery Option Standard",
+                    "urlKey": "ppath",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "multiple",
+                    "uniqueName": "11",
+                    "options": [
+                        {
+                            "title": "Yes",
+                            "value": "11:2110"
+                        },
+                        {
+                            "title": "No",
+                            "value": "11:2401"
+                        }
+                    ]
+                },
+                {
+                    "name": "attribute",
+                    "unfoldRow": "-1",
+                    "title": "Color Family",
+                    "urlKey": "ppath",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "multiple",
+                    "uniqueName": "30129",
+                    "options": [
+                        {
+                            "title": "Silver",
+                            "value": "30129:3741"
+                        },
+                        {
+                            "title": "Multicolor",
+                            "value": "30129:3759"
+                        },
+                        {
+                            "title": "White",
+                            "value": "30129:3743"
+                        },
+                        {
+                            "title": "Pink",
+                            "value": "30129:3739"
+                        },
+                        {
+                            "title": "Green",
+                            "value": "30129:3736"
+                        },
+                        {
+                            "title": "Blue",
+                            "value": "30129:3732"
+                        },
+                        {
+                            "title": "Red",
+                            "value": "30129:1577"
+                        },
+                        {
+                            "title": "Grey",
+                            "value": "30129:3735"
+                        },
+                        {
+                            "title": "Black",
+                            "value": "30129:3731"
+                        },
+                        {
+                            "title": "Brown",
+                            "value": "30129:3733"
+                        },
+                        {
+                            "title": "Gold",
+                            "value": "30129:3734"
+                        },
+                        {
+                            "title": "Yellow",
+                            "value": "30129:3744"
+                        },
+                        {
+                            "title": "Cream",
+                            "value": "30129:3763"
+                        },
+                        {
+                            "title": "Clear",
+                            "value": "30129:3750"
+                        },
+                        {
+                            "title": "Chocolate",
+                            "value": "30129:3746"
+                        },
+                        {
+                            "title": "Multi",
+                            "value": "30129:19454"
+                        },
+                        {
+                            "title": "Orange",
+                            "value": "30129:3738"
+                        },
+                        {
+                            "title": "Sand Brown",
+                            "value": "30129:143165"
+                        }
+                    ]
+                },
+                {
+                    "name": "attribute",
+                    "unfoldRow": "-1",
+                    "title": "country_origin_hb",
+                    "urlKey": "ppath",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "multiple",
+                    "uniqueName": "40371",
+                    "options": [
+                        {
+                            "title": "China",
+                            "value": "40371:2185"
+                        },
+                        {
+                            "title": "India",
+                            "value": "40371:2239"
+                        },
+                        {
+                            "title": "Germany",
+                            "value": "40371:2229"
+                        },
+                        {
+                            "title": "Other",
+                            "value": "40371:3976"
+                        },
+                        {
+                            "title": "America",
+                            "value": "40371:80"
+                        },
+                        {
+                            "title": "Taiwan",
+                            "value": "40371:4433"
+                        },
+                        {
+                            "title": "France",
+                            "value": "40371:2247"
+                        },
+                        {
+                            "title": "Malaysia",
+                            "value": "40371:2298"
+                        },
+                        {
+                            "title": "Thailand",
+                            "value": "40371:2362"
+                        },
+                        {
+                            "title": "Korea",
+                            "value": "40371:4601"
+                        }
+                    ]
+                },
+                {
+                    "name": "attribute",
+                    "unfoldRow": "-1",
+                    "title": "Flavor",
+                    "urlKey": "ppath",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "multiple",
+                    "uniqueName": "30642",
+                    "options": [
+                        {
+                            "title": "Strawberry",
+                            "value": "30642:4626"
+                        },
+                        {
+                            "title": "Coffee",
+                            "value": "30642:3755"
+                        },
+                        {
+                            "title": "Orange",
+                            "value": "30642:3738"
+                        },
+                        {
+                            "title": "Others",
+                            "value": "30642:4631"
+                        },
+                        {
+                            "title": "Blueberry",
+                            "value": "30642:3745"
+                        },
+                        {
+                            "title": "Vanilla",
+                            "value": "30642:4625"
+                        },
+                        {
+                            "title": "Other",
+                            "value": "30642:3976"
+                        },
+                        {
+                            "title": "Apple",
+                            "value": "30642:4178"
+                        },
+                        {
+                            "title": "Kiwi fruit",
+                            "value": "30642:23103"
+                        },
+                        {
+                            "title": "Berry",
+                            "value": "30642:23357"
+                        },
+                        {
+                            "title": "Mixed",
+                            "value": "30642:20864"
+                        },
+                        {
+                            "title": "Banana",
+                            "value": "30642:23230"
+                        },
+                        {
+                            "title": "Mango",
+                            "value": "30642:3754"
+                        },
+                        {
+                            "title": "Chocolate",
+                            "value": "30642:3746"
+                        },
+                        {
+                            "title": "Pineapple",
+                            "value": "30642:14712"
+                        }
+                    ]
+                },
+                {
+                    "name": "attribute",
+                    "unfoldRow": "-1",
+                    "title": "Preparation Type",
+                    "urlKey": "ppath",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "multiple",
+                    "uniqueName": "40774",
+                    "options": [
+                        {
+                            "title": "Chemical techniques",
+                            "value": "40774:204018"
+                        },
+                        {
+                            "title": "Milling",
+                            "value": "40774:204037"
+                        },
+                        {
+                            "title": "Seasoning",
+                            "value": "40774:204034"
+                        },
+                        {
+                            "title": "Mixing",
+                            "value": "40774:204038"
+                        },
+                        {
+                            "title": "Barbecuing",
+                            "value": "40774:204030"
+                        },
+                        {
+                            "title": "Stewing",
+                            "value": "40774:204028"
+                        }
+                    ]
+                },
+                {
+                    "name": "attribute",
+                    "unfoldRow": "-1",
+                    "title": "Baking Utensil Type",
+                    "urlKey": "ppath",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "multiple",
+                    "uniqueName": "40074",
+                    "options": [
+                        {
+                            "title": "Mould",
+                            "value": "40074:108666"
+                        },
+                        {
+                            "title": "Beaters",
+                            "value": "40074:108670"
+                        },
+                        {
+                            "title": "rolling pin",
+                            "value": "40074:86387"
+                        }
+                    ]
+                },
+                {
+                    "name": "attribute",
+                    "unfoldRow": "-1",
+                    "title": "Warranty Period",
+                    "urlKey": "ppath",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "multiple",
+                    "uniqueName": "8",
+                    "options": [
+                        {
+                            "title": "1 Month",
+                            "value": "8:4463"
+                        },
+                        {
+                            "title": "1 Year",
+                            "value": "8:4447"
+                        },
+                        {
+                            "title": "3 Months",
+                            "value": "8:4462"
+                        },
+                        {
+                            "title": "2 Months",
+                            "value": "8:4461"
+                        },
+                        {
+                            "title": "2 Years",
+                            "value": "8:4446"
+                        },
+                        {
+                            "title": "Life Time Warranty",
+                            "value": "8:4502"
+                        }
+                    ]
+                },
+                {
+                    "name": "attribute",
+                    "unfoldRow": "-1",
+                    "title": "Usage",
+                    "urlKey": "ppath",
+                    "hidden": false,
+                    "locked": false,
+                    "type": "multiple",
+                    "uniqueName": "30151",
+                    "options": [
+                        {
+                            "title": "Dry",
+                            "value": "30151:4287"
+                        }
+                    ]
+                }
+            ],
+            "filteredQuatity": "10092",
+            "filteredDoneText": "Product",
+            "title": "Search Filter",
+            "pos": 0
+        },
+        "listItems": [
+            {
+                "name": "Sara Foods Brown Sugar - 1kg",
+                "nid": "127043926",
+                "itemId": "127043926",
+                "icons": [
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 4",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/5cc3f516a04b8ba37960796508ea654c.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 400",
+                "ratingScore": "4.6875",
+                "review": "32",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Sara Foods",
+                "sellerId": "900157557720",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "127043926_NP-1034464129",
+                "skuId": "1034464129",
+                "sku": "127043926_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "400",
+                "inStock": true,
+                "originalPrice": "500",
+                "clickTrace": "query:sugar;nid:127043926;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:127043926_NP;price:400;client:desktop;supplier_id:900157557720;biz_source:h5_external;slot:0;utlog_bucket_id:470687;asc_category_id:10002416;item_id:127043926;sku_id:1034464129;shop_id:94007;templateInfo:",
+                "itemSoldCntShow": "655 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "127043926_NP-1034464129"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F5cc3f516a04b8ba37960796508ea654c.jpg&src=srp_findsimilar&item_id=127043926&sku_id=1034464129&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=400.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/sara-foods-brown-sugar-1kg-i127043926.html",
+                "querystring": "priceCompare=skuId%3A1034464129%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A40000%3BdisplayPrice%3A40000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.6875&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=655&price=4E%202&review=32&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A127043926%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A127043926_NP%253Bprice%253A400%253Bclient%253Adesktop%253Bsupplier_id%253A900157557720%253Bbiz_source%253Ah5_external%253Bslot%253A0%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A127043926%253Bsku_id%253A1034464129%253Bshop_id%253A94007%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Gulmeli (Thorgelo) Gudh 1 Kg",
+                "nid": "103482531",
+                "itemId": "103482531",
+                "icons": [
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 5",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/96f82616fd6ef203fad3fa4166481f2c.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 500",
+                "ratingScore": "4.105263157894737",
+                "review": "15",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "गाउँघर अर्गानिक स्टाेर",
+                "sellerId": "1004772",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "103482531_NP-1024222391",
+                "skuId": "1024222391",
+                "sku": "103482531_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002417
+                ],
+                "price": "500",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:103482531;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:103482531_NP;price:500;client:desktop;supplier_id:1004772;biz_source:h5_external;slot:1;utlog_bucket_id:470687;asc_category_id:10002417;item_id:103482531;sku_id:1024222391;shop_id:14643;templateInfo:",
+                "itemSoldCntShow": "111 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "103482531_NP-1024222391"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F96f82616fd6ef203fad3fa4166481f2c.jpg&src=srp_findsimilar&item_id=103482531&sku_id=1024222391&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=500.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/gulmeli-thorgelo-gudh-1-kg-i103482531.html",
+                "querystring": "priceCompare=skuId%3A1024222391%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A50000%3BdisplayPrice%3A50000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.105263157894737&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=111&price=5E%202&review=15&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A103482531%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A103482531_NP%253Bprice%253A500%253Bclient%253Adesktop%253Bsupplier_id%253A1004772%253Bbiz_source%253Ah5_external%253Bslot%253A1%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002417%253Bitem_id%253A103482531%253Bsku_id%253A1024222391%253Bshop_id%253A14643%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Big Size Sugar - 5kg",
+                "nid": "126007485",
+                "itemId": "126007485",
+                "icons": [],
+                "image": "https://np-live-21.slatic.net/kf/S34e7a0b7cca64bd1972904c666c4b38e8.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 550",
+                "ratingScore": "4.0",
+                "review": "41",
+                "location": "Koshi Province",
+                "thumbs": [],
+                "sellerName": "Garima general Store",
+                "sellerId": "900154389975",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "126007485_NP-1035988587",
+                "skuId": "1035988587",
+                "sku": "126007485_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "550",
+                "inStock": true,
+                "originalPrice": "575",
+                "clickTrace": "query:sugar;nid:126007485;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:126007485_NP;price:550;client:desktop;supplier_id:900154389975;biz_source:h5_external;slot:2;utlog_bucket_id:470687;asc_category_id:10002416;item_id:126007485;sku_id:1035988587;shop_id:68608;templateInfo:",
+                "itemSoldCntShow": "503 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "126007485_NP-1035988587"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fnp-live-21.slatic.net%2Fkf%2FS34e7a0b7cca64bd1972904c666c4b38e8.jpg&src=srp_findsimilar&item_id=126007485&sku_id=1035988587&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=550.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/big-size-sugar-5kg-i126007485.html",
+                "querystring": "priceCompare=skuId%3A1035988587%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A55000%3BdisplayPrice%3A55000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=503&price=5.5E%202&review=41&location=Koshi%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A126007485%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A126007485_NP%253Bprice%253A550%253Bclient%253Adesktop%253Bsupplier_id%253A900154389975%253Bbiz_source%253Ah5_external%253Bslot%253A2%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A126007485%253Bsku_id%253A1035988587%253Bshop_id%253A68608%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Big Size Sugar - 1kg",
+                "nid": "125196003",
+                "itemId": "125196003",
+                "icons": [],
+                "image": "https://np-live-21.slatic.net/kf/S87f2ce48cc2c4f9db5eace23845f54a16.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 110",
+                "ratingScore": "4.821428571428571",
+                "review": "28",
+                "location": "Koshi Province",
+                "thumbs": [],
+                "sellerName": "Garima general Store",
+                "sellerId": "900154389975",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "125196003_NP-1035975804",
+                "skuId": "1035975804",
+                "sku": "125196003_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "110",
+                "inStock": true,
+                "originalPrice": "160",
+                "clickTrace": "query:sugar;nid:125196003;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:125196003_NP;price:110;client:desktop;supplier_id:900154389975;biz_source:h5_external;slot:3;utlog_bucket_id:470687;asc_category_id:10002416;item_id:125196003;sku_id:1035975804;shop_id:68608;templateInfo:",
+                "itemSoldCntShow": "475 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "125196003_NP-1035975804"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fnp-live-21.slatic.net%2Fkf%2FS87f2ce48cc2c4f9db5eace23845f54a16.jpg&src=srp_findsimilar&item_id=125196003&sku_id=1035975804&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=110.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/big-size-sugar-1kg-i125196003.html",
+                "querystring": "priceCompare=skuId%3A1035975804%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A11000%3BdisplayPrice%3A11000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.821428571428571&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=475&price=1.1E%202&review=28&location=Koshi%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A125196003%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A125196003_NP%253Bprice%253A110%253Bclient%253Adesktop%253Bsupplier_id%253A900154389975%253Bbiz_source%253Ah5_external%253Bslot%253A3%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A125196003%253Bsku_id%253A1035975804%253Bshop_id%253A68608%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Kirana Jaggery (Khane Sakkhar) 1kg",
+                "nid": "104446353",
+                "itemId": "104446353",
+                "icons": [],
+                "image": "https://static-01.daraz.com.np/p/a02fe1b78c83eac7ebbc85d21e6535c1.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 170",
+                "ratingScore": "4.558139534883721",
+                "review": "43",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Myepuja",
+                "sellerId": "1005200",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "104446353_NP-1025474517",
+                "skuId": "1025474517",
+                "sku": "104446353_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002417
+                ],
+                "price": "170",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:104446353;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:104446353_NP;price:170;client:desktop;supplier_id:1005200;biz_source:h5_external;slot:4;utlog_bucket_id:470687;asc_category_id:10002417;item_id:104446353;sku_id:1025474517;shop_id:15094;templateInfo:",
+                "itemSoldCntShow": "207 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "104446353_NP-1025474517"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Fa02fe1b78c83eac7ebbc85d21e6535c1.jpg&src=srp_findsimilar&item_id=104446353&sku_id=1025474517&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=170.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/kirana-jaggery-khane-sakkhar-1kg-i104446353.html",
+                "querystring": "priceCompare=skuId%3A1025474517%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A17000%3BdisplayPrice%3A17000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.558139534883721&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=207&price=1.7E%202&review=43&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A104446353%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A104446353_NP%253Bprice%253A170%253Bclient%253Adesktop%253Bsupplier_id%253A1005200%253Bbiz_source%253Ah5_external%253Bslot%253A4%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002417%253Bitem_id%253A104446353%253Bsku_id%253A1025474517%253Bshop_id%253A15094%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Kirana Jaggery (Khane Sakkhar) 500g",
+                "nid": "105170589",
+                "itemId": "105170589",
+                "icons": [],
+                "image": "https://static-01.daraz.com.np/p/a02fe1b78c83eac7ebbc85d21e6535c1.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 80",
+                "ratingScore": "4.478260869565218",
+                "review": "23",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Myepuja",
+                "sellerId": "1005200",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "105170589_NP-1026840442",
+                "skuId": "1026840442",
+                "sku": "105170589_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002417
+                ],
+                "price": "80",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:105170589;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:105170589_NP;price:80;client:desktop;supplier_id:1005200;biz_source:h5_external;slot:5;utlog_bucket_id:470687;asc_category_id:10002417;item_id:105170589;sku_id:1026840442;shop_id:15094;templateInfo:",
+                "itemSoldCntShow": "78 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "105170589_NP-1026840442"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Fa02fe1b78c83eac7ebbc85d21e6535c1.jpg&src=srp_findsimilar&item_id=105170589&sku_id=1026840442&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=80.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/kirana-jaggery-khane-sakkhar-500g-i105170589.html",
+                "querystring": "priceCompare=skuId%3A1026840442%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A8000%3BdisplayPrice%3A8000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.478260869565218&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=78&price=8E%201&review=23&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A105170589%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A105170589_NP%253Bprice%253A80%253Bclient%253Adesktop%253Bsupplier_id%253A1005200%253Bbiz_source%253Ah5_external%253Bslot%253A5%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002417%253Bitem_id%253A105170589%253Bsku_id%253A1026840442%253Bshop_id%253A15094%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Sugar Plain - 1kg",
+                "nid": "125192328",
+                "itemId": "125192328",
+                "icons": [],
+                "image": "https://np-live-21.slatic.net/kf/Sfd61f28799b0456d8b3648e360df37709.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 110",
+                "ratingScore": "4.138888888888889",
+                "review": "36",
+                "location": "Koshi Province",
+                "thumbs": [],
+                "sellerName": "Garima general Store",
+                "sellerId": "900154389975",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "125192328_NP-1035970577",
+                "skuId": "1035970577",
+                "sku": "125192328_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "110",
+                "inStock": true,
+                "originalPrice": "160",
+                "clickTrace": "query:sugar;nid:125192328;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:125192328_NP;price:110;client:desktop;supplier_id:900154389975;biz_source:h5_external;slot:6;utlog_bucket_id:470687;asc_category_id:10002416;item_id:125192328;sku_id:1035970577;shop_id:68608;templateInfo:",
+                "itemSoldCntShow": "638 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "125192328_NP-1035970577"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fnp-live-21.slatic.net%2Fkf%2FSfd61f28799b0456d8b3648e360df37709.jpg&src=srp_findsimilar&item_id=125192328&sku_id=1035970577&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=110.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/sugar-plain-1kg-i125192328.html",
+                "querystring": "priceCompare=skuId%3A1035970577%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A11000%3BdisplayPrice%3A11000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.138888888888889&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=638&price=1.1E%202&review=36&location=Koshi%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A125192328%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A125192328_NP%253Bprice%253A110%253Bclient%253Adesktop%253Bsupplier_id%253A900154389975%253Bbiz_source%253Ah5_external%253Bslot%253A6%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A125192328%253Bsku_id%253A1035970577%253Bshop_id%253A68608%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Fresh Sugar | Safed Cheeni 5kg",
+                "nid": "161933454",
+                "itemId": "161933454",
+                "icons": [],
+                "image": "https://static-01.daraz.com.np/p/ae26cb310a9a2668dcd41774dd9b8628.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 645",
+                "ratingScore": "3.4",
+                "review": "5",
+                "location": "Madhesh Province",
+                "thumbs": [],
+                "sellerName": "MeroMart",
+                "sellerId": "900238224692",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "161933454_NP-1151270844",
+                "skuId": "1151270844",
+                "sku": "161933454_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "645",
+                "inStock": true,
+                "originalPrice": "700",
+                "clickTrace": "query:sugar;nid:161933454;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:161933454_NP;price:645;client:desktop;supplier_id:900238224692;biz_source:h5_external;slot:7;utlog_bucket_id:470687;asc_category_id:10002416;item_id:161933454;sku_id:1151270844;shop_id:147165;templateInfo:",
+                "itemSoldCntShow": "55 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "161933454_NP-1151270844"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Fae26cb310a9a2668dcd41774dd9b8628.jpg&src=srp_findsimilar&item_id=161933454&sku_id=1151270844&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=645.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/fresh-sugar-safed-cheeni-5kg-i161933454.html",
+                "querystring": "priceCompare=skuId%3A1151270844%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A64500%3BdisplayPrice%3A64500%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=3.4&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=55&price=645&review=5&location=Madhesh%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A161933454%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A161933454_NP%253Bprice%253A645%253Bclient%253Adesktop%253Bsupplier_id%253A900238224692%253Bbiz_source%253Ah5_external%253Bslot%253A7%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A161933454%253Bsku_id%253A1151270844%253Bshop_id%253A147165%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Caster Wheel Big",
+                "nid": "114083",
+                "itemId": "114083",
+                "icons": [
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 1",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/00d76af045f2ff4d6fd9c30dc1aac0b7.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 100",
+                "ratingScore": "5.0",
+                "review": "6",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Supreme Light Technology ",
+                "sellerId": "597",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "OT776OT0KY2LSNAFAMZ-35151",
+                "skuId": "724582",
+                "sku": "OT776OT0KY2LSNAFAMZ",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002417
+                ],
+                "price": "100",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:114083;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:OT776OT0KY2LSNAFAMZ;price:100;client:desktop;supplier_id:597;biz_source:h5_external;slot:8;utlog_bucket_id:470687;asc_category_id:10002417;item_id:114083;sku_id:724582;shop_id:8820;templateInfo:",
+                "itemSoldCntShow": "137 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "OT776OT0KY2LSNAFAMZ-35151"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F00d76af045f2ff4d6fd9c30dc1aac0b7.jpg&src=srp_findsimilar&item_id=114083&sku_id=724582&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=100.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/caster-wheel-i114083.html",
+                "querystring": "priceCompare=skuId%3A724582%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A10000%3BdisplayPrice%3A10000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=137&price=1E%202&review=6&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A114083%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253AOT776OT0KY2LSNAFAMZ%253Bprice%253A100%253Bclient%253Adesktop%253Bsupplier_id%253A597%253Bbiz_source%253Ah5_external%253Bslot%253A8%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002417%253Bitem_id%253A114083%253Bsku_id%253A724582%253Bshop_id%253A8820%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Icing Sugar - 200g",
+                "nid": "127992790",
+                "itemId": "127992790",
+                "icons": [
+                    {
+                        "domClass": "116117",
+                        "type": "img",
+                        "group": "3",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/e0ecfd9f5807c252402a89ccdf4a0148.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 60",
+                "ratingScore": "5.0",
+                "review": "6",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Shop Wholly Network",
+                "sellerId": "900153585445",
+                "brandName": "",
+                "brandId": "127086223",
+                "cheapest_sku": "127992790_NP-1035040431",
+                "skuId": "1035040431",
+                "sku": "127992790_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "60",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:127992790;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:127992790_NP;price:60;client:desktop;supplier_id:900153585445;biz_source:h5_external;slot:9;utlog_bucket_id:470687;asc_category_id:10002416;item_id:127992790;sku_id:1035040431;shop_id:64095;templateInfo:",
+                "itemSoldCntShow": "77 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "127992790_NP-1035040431"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Fe0ecfd9f5807c252402a89ccdf4a0148.jpg&src=srp_findsimilar&item_id=127992790&sku_id=1035040431&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=60.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/icing-sugar-200g-i127992790.html",
+                "querystring": "priceCompare=skuId%3A1035040431%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A6000%3BdisplayPrice%3A6000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=77&price=6E%201&review=6&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A127992790%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A127992790_NP%253Bprice%253A60%253Bclient%253Adesktop%253Bsupplier_id%253A900153585445%253Bbiz_source%253Ah5_external%253Bslot%253A9%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A127992790%253Bsku_id%253A1035040431%253Bshop_id%253A64095%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Organic Jaggery (Local Sakkhar) 1 Kg",
+                "nid": "107832247",
+                "itemId": "107832247",
+                "icons": [
+                    {
+                        "domClass": "116121",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    },
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 2",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/4d51b594d3ed0d311901c35fc01383f3.png",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 225",
+                "ratingScore": "4.75",
+                "review": "12",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "गाउँघर अर्गानिक स्टाेर",
+                "sellerId": "1004772",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "107832247_NP-1029053490",
+                "skuId": "1029053490",
+                "sku": "107832247_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002417
+                ],
+                "price": "225",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:107832247;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:107832247_NP;price:225;client:desktop;supplier_id:1004772;biz_source:h5_external;slot:10;utlog_bucket_id:470687;asc_category_id:10002417;item_id:107832247;sku_id:1029053490;shop_id:14643;templateInfo:",
+                "itemSoldCntShow": "78 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "107832247_NP-1029053490"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F4d51b594d3ed0d311901c35fc01383f3.png&src=srp_findsimilar&item_id=107832247&sku_id=1029053490&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=225.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/organic-jaggery-local-sakkhar-1-kg-i107832247.html",
+                "querystring": "priceCompare=skuId%3A1029053490%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A22500%3BdisplayPrice%3A22500%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.75&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=78&price=225&review=12&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A107832247%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A107832247_NP%253Bprice%253A225%253Bclient%253Adesktop%253Bsupplier_id%253A1004772%253Bbiz_source%253Ah5_external%253Bslot%253A10%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002417%253Bitem_id%253A107832247%253Bsku_id%253A1029053490%253Bshop_id%253A14643%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Patanjali Bura Sugar 1 KG",
+                "nid": "123265537",
+                "itemId": "123265537",
+                "icons": [
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 3",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/8581d1edb94974b34f57295d4a5896dc.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 300",
+                "ratingScore": "4.555555555555555",
+                "review": "9",
+                "location": "Koshi Province",
+                "thumbs": [],
+                "sellerName": "Healthy Ghar Nepal",
+                "sellerId": "900156597539",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "123265537_NP-1033498040",
+                "skuId": "1033498040",
+                "sku": "123265537_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "300",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:123265537;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:123265537_NP;price:300;client:desktop;supplier_id:900156597539;biz_source:h5_external;slot:11;utlog_bucket_id:470687;asc_category_id:10002416;item_id:123265537;sku_id:1033498040;shop_id:83001;templateInfo:",
+                "itemSoldCntShow": "84 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "123265537_NP-1033498040"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F8581d1edb94974b34f57295d4a5896dc.jpg&src=srp_findsimilar&item_id=123265537&sku_id=1033498040&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=300.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/patanjali-bura-sugar-1-kg-i123265537.html",
+                "querystring": "priceCompare=skuId%3A1033498040%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A30000%3BdisplayPrice%3A30000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.555555555555555&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=84&price=3E%202&review=9&location=Koshi%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A123265537%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A123265537_NP%253Bprice%253A300%253Bclient%253Adesktop%253Bsupplier_id%253A900156597539%253Bbiz_source%253Ah5_external%253Bslot%253A11%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A123265537%253Bsku_id%253A1033498040%253Bshop_id%253A83001%253BtemplateInfo%253A"
+            },
+            {
+                "name": "MATO Sugar 1kg",
+                "nid": "129118369",
+                "itemId": "129118369",
+                "icons": [
+                    {
+                        "domClass": "116121",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    },
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 3",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    },
+                    {
+                        "domClass": "116117",
+                        "type": "img",
+                        "group": "3",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/a4a9f54477efd85a2605ca1f90dca26d.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 105",
+                "ratingScore": "",
+                "review": "",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "MATO NEPAL",
+                "sellerId": "900151602055",
+                "brandName": "",
+                "brandId": "127282229",
+                "cheapest_sku": "129118369_NP-1037147046",
+                "skuId": "1037147046",
+                "sku": "129118369_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "105",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:129118369;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:129118369_NP;price:105;client:desktop;supplier_id:900151602055;biz_source:h5_external;slot:12;utlog_bucket_id:470687;asc_category_id:10002416;item_id:129118369;sku_id:1037147046;shop_id:30410;templateInfo:",
+                "itemSoldCntShow": "51 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "129118369_NP-1037147046"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Fa4a9f54477efd85a2605ca1f90dca26d.jpg&src=srp_findsimilar&item_id=129118369&sku_id=1037147046&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=105.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/mato-sugar-1kg-i129118369.html",
+                "querystring": "priceCompare=skuId%3A1037147046%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A10500%3BdisplayPrice%3A10500%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=51&price=105&review=&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A129118369%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A129118369_NP%253Bprice%253A105%253Bclient%253Adesktop%253Bsupplier_id%253A900151602055%253Bbiz_source%253Ah5_external%253Bslot%253A12%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A129118369%253Bsku_id%253A1037147046%253Bshop_id%253A30410%253BtemplateInfo%253A"
+            },
+            {
+                "name": "NR Natural Pure Organic Jaggery Gur / Gud from Sugarcane Chemical Free 1000GM 1Kg",
+                "nid": "133621991",
+                "itemId": "133621991",
+                "icons": [
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 15",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/c7217f34d039f0757d7235af519ec7f2.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 489",
+                "ratingScore": "4.0",
+                "review": "1",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Sri Kalam Ghar",
+                "sellerId": "900207888009",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "133621991_NP-1055178064",
+                "skuId": "1055178064",
+                "sku": "133621991_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "489",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:133621991;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:133621991_NP;price:489;client:desktop;supplier_id:900207888009;biz_source:h5_external;slot:13;utlog_bucket_id:470687;asc_category_id:10002416;item_id:133621991;sku_id:1055178064;shop_id:127477;templateInfo:",
+                "itemSoldCntShow": "13 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "133621991_NP-1055178064"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Fc7217f34d039f0757d7235af519ec7f2.jpg&src=srp_findsimilar&item_id=133621991&sku_id=1055178064&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=489.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/nr-natural-pure-organic-jaggery-gur-gud-from-sugarcane-chemical-free-1000gm-1kg-i133621991.html",
+                "querystring": "priceCompare=skuId%3A1055178064%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A48900%3BdisplayPrice%3A48900%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=13&price=489&review=1&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A133621991%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A133621991_NP%253Bprice%253A489%253Bclient%253Adesktop%253Bsupplier_id%253A900207888009%253Bbiz_source%253Ah5_external%253Bslot%253A13%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A133621991%253Bsku_id%253A1055178064%253Bshop_id%253A127477%253BtemplateInfo%253A"
+            },
+            {
+                "name": "LOCAL FARM 100% Natural Jaggery Cubes (Local Sakkhar) - 300gm",
+                "nid": "125513397",
+                "itemId": "125513397",
+                "icons": [
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 11",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    },
+                    {
+                        "domClass": "116117",
+                        "type": "img",
+                        "group": "3",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/08d9bc23f8fdc717549b4034c5bea49c.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 375",
+                "ratingScore": "4.8",
+                "review": "5",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Local Farm Pvt.Ltd.",
+                "sellerId": "900152142039",
+                "brandName": "",
+                "brandId": "127372254",
+                "cheapest_sku": "125513397_NP-1034047805",
+                "skuId": "1034047805",
+                "sku": "125513397_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002417
+                ],
+                "price": "375",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:125513397;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:125513397_NP;price:375;client:desktop;supplier_id:900152142039;biz_source:h5_external;slot:14;utlog_bucket_id:470687;asc_category_id:10002417;item_id:125513397;sku_id:1034047805;shop_id:39012;templateInfo:",
+                "itemSoldCntShow": "20 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "125513397_NP-1034047805"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F08d9bc23f8fdc717549b4034c5bea49c.jpg&src=srp_findsimilar&item_id=125513397&sku_id=1034047805&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=375.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/local-farm-100-natural-jaggery-cubes-local-sakkhar-300gm-i125513397.html",
+                "querystring": "priceCompare=skuId%3A1034047805%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A37500%3BdisplayPrice%3A37500%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.8&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=20&price=375&review=5&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A125513397%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A125513397_NP%253Bprice%253A375%253Bclient%253Adesktop%253Bsupplier_id%253A900152142039%253Bbiz_source%253Ah5_external%253Bslot%253A14%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002417%253Bitem_id%253A125513397%253Bsku_id%253A1034047805%253Bshop_id%253A39012%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Jaggery 200 Gms / Herbs Nepal",
+                "nid": "118162041",
+                "itemId": "118162041",
+                "icons": [
+                    {
+                        "domClass": "116044",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/b4ed89fcf3574c51a15e96cac2c027b1.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 90",
+                "ratingScore": "4.5",
+                "review": "6",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Organic-Herbs Nepal",
+                "sellerId": "900153414197",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "118162041_NP-1032392353",
+                "skuId": "1032392353",
+                "sku": "118162041_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "90",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:118162041;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:118162041_NP;price:90;client:desktop;supplier_id:900153414197;biz_source:h5_external;slot:15;utlog_bucket_id:470687;asc_category_id:10002416;item_id:118162041;sku_id:1032392353;shop_id:62789;templateInfo:",
+                "itemSoldCntShow": "46 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "118162041_NP-1032392353"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Fb4ed89fcf3574c51a15e96cac2c027b1.jpg&src=srp_findsimilar&item_id=118162041&sku_id=1032392353&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=90.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/jaggery-200-gms-herbs-nepal-i118162041.html",
+                "querystring": "priceCompare=skuId%3A1032392353%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A9000%3BdisplayPrice%3A9000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.5&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=46&price=9E%201&review=6&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A118162041%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A118162041_NP%253Bprice%253A90%253Bclient%253Adesktop%253Bsupplier_id%253A900153414197%253Bbiz_source%253Ah5_external%253Bslot%253A15%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A118162041%253Bsku_id%253A1032392353%253Bshop_id%253A62789%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Sulphur Less Sugar, 5kg",
+                "nid": "125737825",
+                "itemId": "125737825",
+                "icons": [],
+                "image": "https://static-01.daraz.com.np/p/083adf7da233b24eef66ced9b7a20935.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 1,100",
+                "ratingScore": "4.5",
+                "review": "8",
+                "location": "Lumbini Province",
+                "thumbs": [],
+                "sellerName": "Near Me",
+                "sellerId": "900157281206",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "125737825_NP-1034092391",
+                "skuId": "1034092391",
+                "sku": "125737825_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "1100",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:125737825;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:125737825_NP;price:1100;client:desktop;supplier_id:900157281206;biz_source:h5_external;slot:16;utlog_bucket_id:470687;asc_category_id:10002416;item_id:125737825;sku_id:1034092391;shop_id:91098;templateInfo:",
+                "itemSoldCntShow": "77 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "125737825_NP-1034092391"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F083adf7da233b24eef66ced9b7a20935.jpg&src=srp_findsimilar&item_id=125737825&sku_id=1034092391&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=1100.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/sulphur-less-sugar-5kg-i125737825.html",
+                "querystring": "priceCompare=skuId%3A1034092391%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A110000%3BdisplayPrice%3A110000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.5&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=77&price=1.1E%203&review=8&location=Lumbini%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A125737825%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A125737825_NP%253Bprice%253A1100%253Bclient%253Adesktop%253Bsupplier_id%253A900157281206%253Bbiz_source%253Ah5_external%253Bslot%253A16%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A125737825%253Bsku_id%253A1034092391%253Bshop_id%253A91098%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Sugar Big Size 5kg Pure and Clean",
+                "nid": "129246533",
+                "itemId": "129246533",
+                "icons": [],
+                "image": "https://static-01.daraz.com.np/p/186b0931670030370bc0196e201c9c51.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 700",
+                "ratingScore": "4.5",
+                "review": "2",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Subha Abik Store",
+                "sellerId": "900155826693",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "129246533_NP-1037269412",
+                "skuId": "1037269412",
+                "sku": "129246533_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "700",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:129246533;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:129246533_NP;price:700;client:desktop;supplier_id:900155826693;biz_source:h5_external;slot:17;utlog_bucket_id:470687;asc_category_id:10002416;item_id:129246533;sku_id:1037269412;shop_id:76147;templateInfo:",
+                "itemSoldCntShow": "16 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "129246533_NP-1037269412"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F186b0931670030370bc0196e201c9c51.jpg&src=srp_findsimilar&item_id=129246533&sku_id=1037269412&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=700.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/sugar-big-size-5kg-pure-and-clean-i129246533.html",
+                "querystring": "priceCompare=skuId%3A1037269412%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A70000%3BdisplayPrice%3A70000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.5&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=16&price=7E%202&review=2&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A129246533%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A129246533_NP%253Bprice%253A700%253Bclient%253Adesktop%253Bsupplier_id%253A900155826693%253Bbiz_source%253Ah5_external%253Bslot%253A17%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A129246533%253Bsku_id%253A1037269412%253Bshop_id%253A76147%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Gulmi Organic Jaggery Pure and Local Gud/Sakhar 1 kg",
+                "nid": "162021849",
+                "itemId": "162021849",
+                "icons": [],
+                "image": "https://np-live-21.slatic.net/kf/Sda506d9c55af442c8c440cd436deebd0m.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 340",
+                "ratingScore": "",
+                "review": "",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "My Choice Online Shopping",
+                "sellerId": "900157977385",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "162021849_NP-1152444577",
+                "skuId": "1152444577",
+                "sku": "162021849_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "340",
+                "inStock": true,
+                "originalPrice": "350",
+                "clickTrace": "query:sugar;nid:162021849;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:162021849_NP;price:340;client:desktop;supplier_id:900157977385;biz_source:h5_external;slot:18;utlog_bucket_id:470687;asc_category_id:10002416;item_id:162021849;sku_id:1152444577;shop_id:97806;templateInfo:",
+                "itemSoldCntShow": "8 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "162021849_NP-1152444577"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fnp-live-21.slatic.net%2Fkf%2FSda506d9c55af442c8c440cd436deebd0m.jpg&src=srp_findsimilar&item_id=162021849&sku_id=1152444577&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=340.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/gulmi-organic-jaggery-pure-and-local-gudsakhar-1-kg-i162021849.html",
+                "querystring": "priceCompare=skuId%3A1152444577%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A34000%3BdisplayPrice%3A34000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=8&price=3.4E%202&review=&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A162021849%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A162021849_NP%253Bprice%253A340%253Bclient%253Adesktop%253Bsupplier_id%253A900157977385%253Bbiz_source%253Ah5_external%253Bslot%253A18%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A162021849%253Bsku_id%253A1152444577%253Bshop_id%253A97806%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Uttam Sulphur Free Sugar - 500Gm",
+                "nid": "127805804",
+                "itemId": "127805804",
+                "icons": [],
+                "image": "https://static-01.daraz.com.np/p/9b3879f9bae7cfe3ed98225429677396.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 125",
+                "ratingScore": "3.0",
+                "review": "2",
+                "location": "Koshi Province",
+                "thumbs": [],
+                "sellerName": "Garima general Store",
+                "sellerId": "900154389975",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "127805804_NP-1034886934",
+                "skuId": "1034886934",
+                "sku": "127805804_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "125",
+                "inStock": true,
+                "originalPrice": "150",
+                "clickTrace": "query:sugar;nid:127805804;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:127805804_NP;price:125;client:desktop;supplier_id:900154389975;biz_source:h5_external;slot:19;utlog_bucket_id:470687;asc_category_id:10002416;item_id:127805804;sku_id:1034886934;shop_id:68608;templateInfo:",
+                "itemSoldCntShow": "25 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "127805804_NP-1034886934"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F9b3879f9bae7cfe3ed98225429677396.jpg&src=srp_findsimilar&item_id=127805804&sku_id=1034886934&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=125.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/uttam-sulphur-free-sugar-500gm-i127805804.html",
+                "querystring": "priceCompare=skuId%3A1034886934%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A12500%3BdisplayPrice%3A12500%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=3.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=25&price=125&review=2&location=Koshi%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A127805804%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A127805804_NP%253Bprice%253A125%253Bclient%253Adesktop%253Bsupplier_id%253A900154389975%253Bbiz_source%253Ah5_external%253Bslot%253A19%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A127805804%253Bsku_id%253A1034886934%253Bshop_id%253A68608%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Patanjali Khand 1kg",
+                "nid": "129832131",
+                "itemId": "129832131",
+                "icons": [
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 4",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/cc0ddb27a82e6c59767e4d96f831947b.png",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 350",
+                "ratingScore": "4.5",
+                "review": "2",
+                "location": "Koshi Province",
+                "thumbs": [],
+                "sellerName": "Healthy Ghar Nepal",
+                "sellerId": "900156597539",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "129832131_NP-1037672324",
+                "skuId": "1037672324",
+                "sku": "129832131_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "350",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:129832131;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:129832131_NP;price:350;client:desktop;supplier_id:900156597539;biz_source:h5_external;slot:20;utlog_bucket_id:470687;asc_category_id:10002416;item_id:129832131;sku_id:1037672324;shop_id:83001;templateInfo:",
+                "itemSoldCntShow": "40 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "129832131_NP-1037672324"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Fcc0ddb27a82e6c59767e4d96f831947b.png&src=srp_findsimilar&item_id=129832131&sku_id=1037672324&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=350.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/patanjali-khand-1kg-i129832131.html",
+                "querystring": "priceCompare=skuId%3A1037672324%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A35000%3BdisplayPrice%3A35000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.5&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=40&price=3.5E%202&review=2&location=Koshi%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A129832131%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A129832131_NP%253Bprice%253A350%253Bclient%253Adesktop%253Bsupplier_id%253A900156597539%253Bbiz_source%253Ah5_external%253Bslot%253A20%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A129832131%253Bsku_id%253A1037672324%253Bshop_id%253A83001%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Mishri Tukra ( Rock Sugar Cubes ) 500 gm",
+                "nid": "118080141",
+                "itemId": "118080141",
+                "icons": [
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 1",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/d2b88d69186446de70c2283bc07b64b2.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 130",
+                "ratingScore": "4.8",
+                "review": "5",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "गाउँघर अर्गानिक स्टाेर",
+                "sellerId": "1004772",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "118080141_NP-1032379043",
+                "skuId": "1032379043",
+                "sku": "118080141_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002417
+                ],
+                "price": "130",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:118080141;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:118080141_NP;price:130;client:desktop;supplier_id:1004772;biz_source:h5_external;slot:21;utlog_bucket_id:470687;asc_category_id:10002417;item_id:118080141;sku_id:1032379043;shop_id:14643;templateInfo:",
+                "itemSoldCntShow": "28 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "118080141_NP-1032379043"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Fd2b88d69186446de70c2283bc07b64b2.jpg&src=srp_findsimilar&item_id=118080141&sku_id=1032379043&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=130.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/mishri-tukra-rock-sugar-cubes-500-gm-i118080141.html",
+                "querystring": "priceCompare=skuId%3A1032379043%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A13000%3BdisplayPrice%3A13000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.8&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=28&price=1.3E%202&review=5&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A118080141%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A118080141_NP%253Bprice%253A130%253Bclient%253Adesktop%253Bsupplier_id%253A1004772%253Bbiz_source%253Ah5_external%253Bslot%253A21%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002417%253Bitem_id%253A118080141%253Bsku_id%253A1032379043%253Bshop_id%253A14643%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Kirana Dhaga Wala Misri - 1000Gm",
+                "nid": "159908374",
+                "itemId": "159908374",
+                "icons": [],
+                "image": "https://np-live-21.slatic.net/kf/S9eaff351d876498b83b7debf53b28c16y.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 200",
+                "ratingScore": "",
+                "review": "",
+                "location": "Koshi Province",
+                "thumbs": [],
+                "sellerName": "Garima general Store",
+                "sellerId": "900154389975",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "159908374_NP-1144484018",
+                "skuId": "1144484018",
+                "sku": "159908374_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "200",
+                "inStock": true,
+                "originalPrice": "220",
+                "clickTrace": "query:sugar;nid:159908374;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:159908374_NP;price:200;client:desktop;supplier_id:900154389975;biz_source:h5_external;slot:22;utlog_bucket_id:470687;asc_category_id:10002416;item_id:159908374;sku_id:1144484018;shop_id:68608;templateInfo:",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "159908374_NP-1144484018"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fnp-live-21.slatic.net%2Fkf%2FS9eaff351d876498b83b7debf53b28c16y.jpg&src=srp_findsimilar&item_id=159908374&sku_id=1144484018&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=200.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/kirana-dhaga-wala-misri-1000gm-i159908374.html",
+                "querystring": "priceCompare=skuId%3A1144484018%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A20000%3BdisplayPrice%3A20000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=3&price=2E%202&review=&location=Koshi%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A159908374%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A159908374_NP%253Bprice%253A200%253Bclient%253Adesktop%253Bsupplier_id%253A900154389975%253Bbiz_source%253Ah5_external%253Bslot%253A22%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A159908374%253Bsku_id%253A1144484018%253Bshop_id%253A68608%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Sara Foods Table Sugar - 1kg",
+                "nid": "127052812",
+                "itemId": "127052812",
+                "icons": [
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 2",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/1716b73b8b778cc4aa58ca65d38ff384.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 160",
+                "ratingScore": "4.0",
+                "review": "3",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Sara Foods",
+                "sellerId": "900157557720",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "127052812_NP-1034463348",
+                "skuId": "1034463348",
+                "sku": "127052812_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "160",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:127052812;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:127052812_NP;price:160;client:desktop;supplier_id:900157557720;biz_source:h5_external;slot:23;utlog_bucket_id:470687;asc_category_id:10002416;item_id:127052812;sku_id:1034463348;shop_id:94007;templateInfo:",
+                "itemSoldCntShow": "221 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "127052812_NP-1034463348"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F1716b73b8b778cc4aa58ca65d38ff384.jpg&src=srp_findsimilar&item_id=127052812&sku_id=1034463348&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=160.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/sara-foods-table-sugar-1kg-i127052812.html",
+                "querystring": "priceCompare=skuId%3A1034463348%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A16000%3BdisplayPrice%3A16000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=221&price=1.6E%202&review=3&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A127052812%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A127052812_NP%253Bprice%253A160%253Bclient%253Adesktop%253Bsupplier_id%253A900157557720%253Bbiz_source%253Ah5_external%253Bslot%253A23%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A127052812%253Bsku_id%253A1034463348%253Bshop_id%253A94007%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Kirana Crystal  Mishri (Cutting Mishri) 500g",
+                "nid": "129049230",
+                "itemId": "129049230",
+                "icons": [],
+                "image": "https://static-01.daraz.com.np/p/eb37e13b8df2c99fabd84cf1dfc68e78.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 110",
+                "ratingScore": "5.0",
+                "review": "1",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Myepuja",
+                "sellerId": "1005200",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "129049230_NP-1037038682",
+                "skuId": "1037038682",
+                "sku": "129049230_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "110",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:129049230;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:129049230_NP;price:110;client:desktop;supplier_id:1005200;biz_source:h5_external;slot:24;utlog_bucket_id:470687;asc_category_id:10002416;item_id:129049230;sku_id:1037038682;shop_id:15094;templateInfo:",
+                "itemSoldCntShow": "5 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "129049230_NP-1037038682"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Feb37e13b8df2c99fabd84cf1dfc68e78.jpg&src=srp_findsimilar&item_id=129049230&sku_id=1037038682&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=110.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/kirana-crystal-mishri-cutting-mishri-500g-i129049230.html",
+                "querystring": "priceCompare=skuId%3A1037038682%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A11000%3BdisplayPrice%3A11000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=5&price=1.1E%202&review=1&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A129049230%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A129049230_NP%253Bprice%253A110%253Bclient%253Adesktop%253Bsupplier_id%253A1005200%253Bbiz_source%253Ah5_external%253Bslot%253A24%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A129049230%253Bsku_id%253A1037038682%253Bshop_id%253A15094%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Dhago Mishri (Pure Thread Crystal) 1 Kg",
+                "nid": "128737861",
+                "itemId": "128737861",
+                "icons": [
+                    {
+                        "domClass": "116121",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    },
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 2",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/b16e25b363cd35c8515a37fc49255c6b.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 240",
+                "ratingScore": "5.0",
+                "review": "1",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Safa Sansar",
+                "sellerId": "900151920015",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "128737861_NP-1036554770",
+                "skuId": "1036554770",
+                "sku": "128737861_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "240",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:128737861;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:128737861_NP;price:240;client:desktop;supplier_id:900151920015;biz_source:h5_external;slot:25;utlog_bucket_id:470687;asc_category_id:10002416;item_id:128737861;sku_id:1036554770;shop_id:35727;templateInfo:",
+                "itemSoldCntShow": "10 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "128737861_NP-1036554770"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Fb16e25b363cd35c8515a37fc49255c6b.jpg&src=srp_findsimilar&item_id=128737861&sku_id=1036554770&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=240.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/dhago-mishri-pure-thread-crystal-1-kg-i128737861.html",
+                "querystring": "priceCompare=skuId%3A1036554770%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A24000%3BdisplayPrice%3A24000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=10&price=2.4E%202&review=1&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A128737861%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A128737861_NP%253Bprice%253A240%253Bclient%253Adesktop%253Bsupplier_id%253A900151920015%253Bbiz_source%253Ah5_external%253Bslot%253A25%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A128737861%253Bsku_id%253A1036554770%253Bshop_id%253A35727%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Sugar Free Gold Tablets - 300 Pellets",
+                "nid": "113207659",
+                "itemId": "113207659",
+                "icons": [
+                    {
+                        "domClass": "116044",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/00455e5827892897779e056e5a3d5f76.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 336",
+                "ratingScore": "5.0",
+                "review": "1",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Norvic Pharmacy P. Ltd",
+                "sellerId": "1002149",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "113207659_NP-1030779599",
+                "skuId": "1030779599",
+                "sku": "113207659_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "336",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:113207659;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:113207659_NP;price:336;client:desktop;supplier_id:1002149;biz_source:h5_external;slot:26;utlog_bucket_id:470687;asc_category_id:10002416;item_id:113207659;sku_id:1030779599;shop_id:12053;templateInfo:",
+                "itemSoldCntShow": "38 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "113207659_NP-1030779599"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F00455e5827892897779e056e5a3d5f76.jpg&src=srp_findsimilar&item_id=113207659&sku_id=1030779599&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=336.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/sugar-free-gold-tablets-300-pellets-i113207659.html",
+                "querystring": "priceCompare=skuId%3A1030779599%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A33600%3BdisplayPrice%3A33600%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=38&price=336&review=1&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A113207659%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A113207659_NP%253Bprice%253A336%253Bclient%253Adesktop%253Bsupplier_id%253A1002149%253Bbiz_source%253Ah5_external%253Bslot%253A26%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A113207659%253Bsku_id%253A1030779599%253Bshop_id%253A12053%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Kirana Crystal  Mishri (Cutting Mishri) 200g",
+                "nid": "129048264",
+                "itemId": "129048264",
+                "icons": [
+                    {
+                        "domClass": "116044",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/eb37e13b8df2c99fabd84cf1dfc68e78.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 55",
+                "ratingScore": "4.0",
+                "review": "2",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Myepuja",
+                "sellerId": "1005200",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "129048264_NP-1037040407",
+                "skuId": "1037040407",
+                "sku": "129048264_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "55",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:129048264;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:129048264_NP;price:55;client:desktop;supplier_id:1005200;biz_source:h5_external;slot:27;utlog_bucket_id:470687;asc_category_id:10002416;item_id:129048264;sku_id:1037040407;shop_id:15094;templateInfo:",
+                "itemSoldCntShow": "9 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "129048264_NP-1037040407"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Feb37e13b8df2c99fabd84cf1dfc68e78.jpg&src=srp_findsimilar&item_id=129048264&sku_id=1037040407&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=55.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/kirana-crystal-mishri-cutting-mishri-200g-i129048264.html",
+                "querystring": "priceCompare=skuId%3A1037040407%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A5500%3BdisplayPrice%3A5500%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=4.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=9&price=55&review=2&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A129048264%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A129048264_NP%253Bprice%253A55%253Bclient%253Adesktop%253Bsupplier_id%253A1005200%253Bbiz_source%253Ah5_external%253Bslot%253A27%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A129048264%253Bsku_id%253A1037040407%253Bshop_id%253A15094%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Uttam Sulphurfree Sugar - 1kg - Pack Of 5",
+                "nid": "128527242",
+                "itemId": "128527242",
+                "icons": [],
+                "image": "https://np-live-21.slatic.net/kf/S0e51095693b94fb4a80a7db3353ea5476.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 1,030",
+                "ratingScore": "5.0",
+                "review": "1",
+                "location": "Koshi Province",
+                "thumbs": [],
+                "sellerName": "Garima general Store",
+                "sellerId": "900154389975",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "128527242_NP-1036077032",
+                "skuId": "1036077032",
+                "sku": "128527242_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "1030",
+                "inStock": true,
+                "originalPrice": "1100",
+                "clickTrace": "query:sugar;nid:128527242;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:128527242_NP;price:1030;client:desktop;supplier_id:900154389975;biz_source:h5_external;slot:28;utlog_bucket_id:470687;asc_category_id:10002416;item_id:128527242;sku_id:1036077032;shop_id:68608;templateInfo:",
+                "itemSoldCntShow": "6 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "128527242_NP-1036077032"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fnp-live-21.slatic.net%2Fkf%2FS0e51095693b94fb4a80a7db3353ea5476.jpg&src=srp_findsimilar&item_id=128527242&sku_id=1036077032&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=1030.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/uttam-sulphurfree-sugar-1kg-pack-of-5-i128527242.html",
+                "querystring": "priceCompare=skuId%3A1036077032%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A103000%3BdisplayPrice%3A103000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=6&price=1.03E%203&review=1&location=Koshi%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A128527242%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A128527242_NP%253Bprice%253A1030%253Bclient%253Adesktop%253Bsupplier_id%253A900154389975%253Bbiz_source%253Ah5_external%253Bslot%253A28%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A128527242%253Bsku_id%253A1036077032%253Bshop_id%253A68608%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Sugar Big Size 2 kg Pure and Clean",
+                "nid": "129250299",
+                "itemId": "129250299",
+                "icons": [],
+                "image": "https://static-01.daraz.com.np/p/186b0931670030370bc0196e201c9c51.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 285",
+                "ratingScore": "",
+                "review": "",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Subha Abik Store",
+                "sellerId": "900155826693",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "129250299_NP-1037260984",
+                "skuId": "1037260984",
+                "sku": "129250299_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "285",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:129250299;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:129250299_NP;price:285;client:desktop;supplier_id:900155826693;biz_source:h5_external;slot:29;utlog_bucket_id:470687;asc_category_id:10002416;item_id:129250299;sku_id:1037260984;shop_id:76147;templateInfo:",
+                "itemSoldCntShow": "22 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "129250299_NP-1037260984"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F186b0931670030370bc0196e201c9c51.jpg&src=srp_findsimilar&item_id=129250299&sku_id=1037260984&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=285.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/sugar-big-size-2-kg-pure-and-clean-i129250299.html",
+                "querystring": "priceCompare=skuId%3A1037260984%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A28500%3BdisplayPrice%3A28500%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=22&price=285&review=&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A129250299%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A129250299_NP%253Bprice%253A285%253Bclient%253Adesktop%253Bsupplier_id%253A900155826693%253Bbiz_source%253Ah5_external%253Bslot%253A29%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A129250299%253Bsku_id%253A1037260984%253Bshop_id%253A76147%253BtemplateInfo%253A"
+            },
+            {
+                "name": "white Sugar 1kg",
+                "nid": "130177234",
+                "itemId": "130177234",
+                "icons": [
+                    {
+                        "domClass": "116120",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    },
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 1",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://np-live-21.slatic.net/kf/S9bf147e7ed5d4a16aa7025bfcc913d7eV.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 120",
+                "ratingScore": "",
+                "review": "",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Subha Mart",
+                "sellerId": "900152169055",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "130177234_NP-1038652180",
+                "skuId": "1038652180",
+                "sku": "130177234_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "120",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:130177234;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:130177234_NP;price:120;client:desktop;supplier_id:900152169055;biz_source:h5_external;slot:30;utlog_bucket_id:470687;asc_category_id:10002416;item_id:130177234;sku_id:1038652180;shop_id:39680;templateInfo:",
+                "itemSoldCntShow": "24 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "130177234_NP-1038652180"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fnp-live-21.slatic.net%2Fkf%2FS9bf147e7ed5d4a16aa7025bfcc913d7eV.jpg&src=srp_findsimilar&item_id=130177234&sku_id=1038652180&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=120.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/white-sugar-1kg-i130177234.html",
+                "querystring": "priceCompare=skuId%3A1038652180%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A12000%3BdisplayPrice%3A12000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=24&price=1.2E%202&review=&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A130177234%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A130177234_NP%253Bprice%253A120%253Bclient%253Adesktop%253Bsupplier_id%253A900152169055%253Bbiz_source%253Ah5_external%253Bslot%253A30%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A130177234%253Bsku_id%253A1038652180%253Bshop_id%253A39680%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Crystalized Sugar - 500 Gm",
+                "nid": "103159765",
+                "itemId": "103159765",
+                "icons": [
+                    {
+                        "domClass": "116121",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    },
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 10",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/384c320661d81bfde826b38cfed3770a.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 200",
+                "ratingScore": "5.0",
+                "review": "1",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Reuel brothers and sons traders pvt ltd",
+                "sellerId": "1009009",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "103159765_NP-1023898989",
+                "skuId": "1023898989",
+                "sku": "103159765_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "200",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:103159765;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:103159765_NP;price:200;client:desktop;supplier_id:1009009;biz_source:h5_external;slot:31;utlog_bucket_id:470687;asc_category_id:10002416;item_id:103159765;sku_id:1023898989;shop_id:18847;templateInfo:",
+                "itemSoldCntShow": "97 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "103159765_NP-1023898989"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F384c320661d81bfde826b38cfed3770a.jpg&src=srp_findsimilar&item_id=103159765&sku_id=1023898989&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=200.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/crystalized-sugar-500-gm-i103159765.html",
+                "querystring": "priceCompare=skuId%3A1023898989%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A20000%3BdisplayPrice%3A20000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=97&price=2E%202&review=1&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A103159765%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A103159765_NP%253Bprice%253A200%253Bclient%253Adesktop%253Bsupplier_id%253A1009009%253Bbiz_source%253Ah5_external%253Bslot%253A31%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A103159765%253Bsku_id%253A1023898989%253Bshop_id%253A18847%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Kirana Crystal  Mishri (Cutting Mishri) 1kg",
+                "nid": "129048267",
+                "itemId": "129048267",
+                "icons": [
+                    {
+                        "domClass": "116044",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/eb37e13b8df2c99fabd84cf1dfc68e78.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 215",
+                "ratingScore": "5.0",
+                "review": "1",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Myepuja",
+                "sellerId": "1005200",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "129048267_NP-1037038683",
+                "skuId": "1037038683",
+                "sku": "129048267_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "215",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:129048267;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:129048267_NP;price:215;client:desktop;supplier_id:1005200;biz_source:h5_external;slot:32;utlog_bucket_id:470687;asc_category_id:10002416;item_id:129048267;sku_id:1037038683;shop_id:15094;templateInfo:",
+                "itemSoldCntShow": "13 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "129048267_NP-1037038683"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Feb37e13b8df2c99fabd84cf1dfc68e78.jpg&src=srp_findsimilar&item_id=129048267&sku_id=1037038683&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=215.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/kirana-crystal-mishri-cutting-mishri-1kg-i129048267.html",
+                "querystring": "priceCompare=skuId%3A1037038683%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A21500%3BdisplayPrice%3A21500%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=13&price=215&review=1&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A129048267%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A129048267_NP%253Bprice%253A215%253Bclient%253Adesktop%253Bsupplier_id%253A1005200%253Bbiz_source%253Ah5_external%253Bslot%253A32%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A129048267%253Bsku_id%253A1037038683%253Bshop_id%253A15094%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Kirana Crystal  Mishri (Cutting Mishri) 100g",
+                "nid": "129050157",
+                "itemId": "129050157",
+                "icons": [
+                    {
+                        "domClass": "116044",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/eb37e13b8df2c99fabd84cf1dfc68e78.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 30",
+                "ratingScore": "",
+                "review": "",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Myepuja",
+                "sellerId": "1005200",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "129050157_NP-1037042218",
+                "skuId": "1037042218",
+                "sku": "129050157_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "30",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:129050157;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:129050157_NP;price:30;client:desktop;supplier_id:1005200;biz_source:h5_external;slot:33;utlog_bucket_id:470687;asc_category_id:10002416;item_id:129050157;sku_id:1037042218;shop_id:15094;templateInfo:",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "129050157_NP-1037042218"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Feb37e13b8df2c99fabd84cf1dfc68e78.jpg&src=srp_findsimilar&item_id=129050157&sku_id=1037042218&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=30.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/kirana-crystal-mishri-cutting-mishri-100g-i129050157.html",
+                "querystring": "priceCompare=skuId%3A1037042218%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A3000%3BdisplayPrice%3A3000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=2&price=3E%201&review=&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A129050157%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A129050157_NP%253Bprice%253A30%253Bclient%253Adesktop%253Bsupplier_id%253A1005200%253Bbiz_source%253Ah5_external%253Bslot%253A33%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A129050157%253Bsku_id%253A1037042218%253Bshop_id%253A15094%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Patanjali Bura Sugar 1kg + Patanjali Madhuram Sugar (Jaggery Powder) 1kg Combo",
+                "nid": "132111463",
+                "itemId": "132111463",
+                "icons": [
+                    {
+                        "domClass": "116121",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    },
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 6",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/f8fb73815368d87148e735788963110b.png",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 599",
+                "ratingScore": "",
+                "review": "",
+                "location": "Koshi Province",
+                "thumbs": [],
+                "sellerName": "Healthy Ghar Nepal",
+                "sellerId": "900156597539",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "132111463_NP-1039983158",
+                "skuId": "1039983158",
+                "sku": "132111463_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "599",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:132111463;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:132111463_NP;price:599;client:desktop;supplier_id:900156597539;biz_source:h5_external;slot:34;utlog_bucket_id:470687;asc_category_id:10002416;item_id:132111463;sku_id:1039983158;shop_id:83001;templateInfo:",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "132111463_NP-1039983158"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2Ff8fb73815368d87148e735788963110b.png&src=srp_findsimilar&item_id=132111463&sku_id=1039983158&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=599.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/patanjali-bura-sugar-1kg-patanjali-madhuram-sugar-jaggery-powder-1kg-combo-i132111463.html",
+                "querystring": "priceCompare=skuId%3A1039983158%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A59900%3BdisplayPrice%3A59900%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=0&price=599&review=&location=Koshi%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A132111463%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A132111463_NP%253Bprice%253A599%253Bclient%253Adesktop%253Bsupplier_id%253A900156597539%253Bbiz_source%253Ah5_external%253Bslot%253A34%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A132111463%253Bsku_id%253A1039983158%253Bshop_id%253A83001%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Stevia Dry Leaf (Cheni Patta) 60 Grm.",
+                "nid": "163679210",
+                "itemId": "163679210",
+                "icons": [
+                    {
+                        "domClass": "116120",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    },
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 4",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://np-live-21.slatic.net/kf/S6324b41f13e342ba89d8839e6bda41d8s.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 360",
+                "ratingScore": "",
+                "review": "",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Himchuli Foods",
+                "sellerId": "9753",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "163679210_NP-1169124414",
+                "skuId": "1169124414",
+                "sku": "163679210_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002417
+                ],
+                "price": "360",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:163679210;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:163679210_NP;price:360;client:desktop;supplier_id:9753;biz_source:h5_external;slot:35;utlog_bucket_id:470687;asc_category_id:10002417;item_id:163679210;sku_id:1169124414;shop_id:9831;templateInfo:",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "163679210_NP-1169124414"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fnp-live-21.slatic.net%2Fkf%2FS6324b41f13e342ba89d8839e6bda41d8s.jpg&src=srp_findsimilar&item_id=163679210&sku_id=1169124414&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=360.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/stevia-dry-leaf-cheni-patta-60-grm-i163679210.html",
+                "querystring": "priceCompare=skuId%3A1169124414%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A36000%3BdisplayPrice%3A36000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=2&price=3.6E%202&review=&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A163679210%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A163679210_NP%253Bprice%253A360%253Bclient%253Adesktop%253Bsupplier_id%253A9753%253Bbiz_source%253Ah5_external%253Bslot%253A35%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002417%253Bitem_id%253A163679210%253Bsku_id%253A1169124414%253Bshop_id%253A9831%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Hajmola Anardana 120tablets",
+                "nid": "130130316",
+                "itemId": "130130316",
+                "icons": [
+                    {
+                        "domClass": "116120",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    },
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 1",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/131a1fb802acf6490f81dcf7c345ef09.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 85",
+                "ratingScore": "",
+                "review": "",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Subha Mart",
+                "sellerId": "900152169055",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "130130316_NP-1038016149",
+                "skuId": "1038016149",
+                "sku": "130130316_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002417
+                ],
+                "price": "85",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:130130316;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:130130316_NP;price:85;client:desktop;supplier_id:900152169055;biz_source:h5_external;slot:36;utlog_bucket_id:470687;asc_category_id:10002417;item_id:130130316;sku_id:1038016149;shop_id:39680;templateInfo:",
+                "itemSoldCntShow": "14 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "130130316_NP-1038016149"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F131a1fb802acf6490f81dcf7c345ef09.jpg&src=srp_findsimilar&item_id=130130316&sku_id=1038016149&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=85.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/hajmola-anardana-120tablets-i130130316.html",
+                "querystring": "priceCompare=skuId%3A1038016149%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A8500%3BdisplayPrice%3A8500%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=14&price=85&review=&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A130130316%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A130130316_NP%253Bprice%253A85%253Bclient%253Adesktop%253Bsupplier_id%253A900152169055%253Bbiz_source%253Ah5_external%253Bslot%253A36%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002417%253Bitem_id%253A130130316%253Bsku_id%253A1038016149%253Bshop_id%253A39680%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Uttam Sulphurfree Sugar - 1kg",
+                "nid": "128512789",
+                "itemId": "128512789",
+                "icons": [],
+                "image": "https://np-live-21.slatic.net/kf/S215ded99770445b89fa852269ba8a1d8G.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 250",
+                "ratingScore": "",
+                "review": "",
+                "location": "Koshi Province",
+                "thumbs": [],
+                "sellerName": "Garima general Store",
+                "sellerId": "900154389975",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "128512789_NP-1036051861",
+                "skuId": "1036051861",
+                "sku": "128512789_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002416
+                ],
+                "price": "250",
+                "inStock": true,
+                "originalPrice": "275",
+                "clickTrace": "query:sugar;nid:128512789;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:128512789_NP;price:250;client:desktop;supplier_id:900154389975;biz_source:h5_external;slot:37;utlog_bucket_id:470687;asc_category_id:10002416;item_id:128512789;sku_id:1036051861;shop_id:68608;templateInfo:",
+                "itemSoldCntShow": "7 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "128512789_NP-1036051861"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fnp-live-21.slatic.net%2Fkf%2FS215ded99770445b89fa852269ba8a1d8G.jpg&src=srp_findsimilar&item_id=128512789&sku_id=1036051861&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=250.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/uttam-sulphurfree-sugar-1kg-i128512789.html",
+                "querystring": "priceCompare=skuId%3A1036051861%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A25000%3BdisplayPrice%3A25000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=7&price=2.5E%202&review=&location=Koshi%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A128512789%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A128512789_NP%253Bprice%253A250%253Bclient%253Adesktop%253Bsupplier_id%253A900154389975%253Bbiz_source%253Ah5_external%253Bslot%253A37%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002416%253Bitem_id%253A128512789%253Bsku_id%253A1036051861%253Bshop_id%253A68608%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Laxoft Sf(Sugar Free)-100gm",
+                "nid": "128216365",
+                "itemId": "128216365",
+                "icons": [
+                    {
+                        "domClass": "116121",
+                        "type": "img",
+                        "group": "6",
+                        "showType": "0"
+                    },
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 9",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/8056651d1c18a109cb89ce894d8eed09.jpg",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 290",
+                "ratingScore": "",
+                "review": "",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "Bishwas Online",
+                "sellerId": "900159156195",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "128216365_NP-1035348751",
+                "skuId": "1035348751",
+                "sku": "128216365_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002417
+                ],
+                "price": "290",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:128216365;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:128216365_NP;price:290;client:desktop;supplier_id:900159156195;biz_source:h5_external;slot:38;utlog_bucket_id:470687;asc_category_id:10002417;item_id:128216365;sku_id:1035348751;shop_id:101725;templateInfo:",
+                "itemSoldCntShow": "10 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "128216365_NP-1035348751"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F8056651d1c18a109cb89ce894d8eed09.jpg&src=srp_findsimilar&item_id=128216365&sku_id=1035348751&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=290.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/laxoft-sfsugar-free-100gm-i128216365.html",
+                "querystring": "priceCompare=skuId%3A1035348751%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A29000%3BdisplayPrice%3A29000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=10&price=2.9E%202&review=&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A128216365%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A128216365_NP%253Bprice%253A290%253Bclient%253Adesktop%253Bsupplier_id%253A900159156195%253Bbiz_source%253Ah5_external%253Bslot%253A38%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002417%253Bitem_id%253A128216365%253Bsku_id%253A1035348751%253Bshop_id%253A101725%253BtemplateInfo%253A"
+            },
+            {
+                "name": "Stevia Powder 250 gm",
+                "nid": "158076408",
+                "itemId": "158076408",
+                "icons": [
+                    {
+                        "domClass": "150318",
+                        "text": "Gems save Rs. 6",
+                        "type": "text",
+                        "group": "2",
+                        "showType": "0"
+                    }
+                ],
+                "image": "https://static-01.daraz.com.np/p/946125efd1dd76d549e4d8a3dec81035.png",
+                "isSmartImage": false,
+                "originalPriceShow": "",
+                "priceShow": "Rs. 600",
+                "ratingScore": "",
+                "review": "",
+                "location": "Bagmati Province",
+                "thumbs": [],
+                "sellerName": "गाउँघर अर्गानिक स्टाेर",
+                "sellerId": "1004772",
+                "brandName": "No Brand",
+                "brandId": "39704",
+                "cheapest_sku": "158076408_NP-1134011847",
+                "skuId": "1134011847",
+                "sku": "158076408_NP",
+                "categories": [
+                    3752,
+                    7195,
+                    10002135,
+                    10002417
+                ],
+                "price": "600",
+                "inStock": true,
+                "clickTrace": "query:sugar;nid:158076408;src:LazadaMainSrp;rn:3581c7a410f7b11c745622b46624f5c7;region:np;sku:158076408_NP;price:600;client:desktop;supplier_id:1004772;biz_source:h5_external;slot:39;utlog_bucket_id:470687;asc_category_id:10002417;item_id:158076408;sku_id:1134011847;shop_id:14643;templateInfo:",
+                "itemSoldCntShow": "7 sold",
+                "longImageDisplayable": false,
+                "skus": [
+                    {
+                        "id": "158076408_NP-1134011847"
+                    }
+                ],
+                "promotionId": "",
+                "isSponsored": false,
+                "tItemType": "nt_product",
+                "skuType": "",
+                "adFlag": "0",
+                "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.np%2Fp%2F946125efd1dd76d549e4d8a3dec81035.png&src=srp_findsimilar&item_id=158076408&sku_id=1134011847&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&q=sugar&similarType=findSimilarV1&price=600.00&spuTriggerItem=0",
+                "gridTitleLine": "2",
+                "isFission": "0",
+                "isBadgeAutoScroll": false,
+                "showCart": false,
+                "showBackIcon": false,
+                "itemUrl": "//www.daraz.com.np/products/stevia-powder-250-gm-i158076408.html",
+                "querystring": "priceCompare=skuId%3A1134011847%3Bsource%3Alazada-search-voucher%3Bsn%3A3581c7a410f7b11c745622b46624f5c7%3BoriginPrice%3A60000%3BdisplayPrice%3A60000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1737093287770&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=7&price=6E%202&review=&location=Bagmati%20Province&stock=1&lang=en&request_id=3581c7a410f7b11c745622b46624f5c7&clickTrackInfo=query%253Asugar%253Bnid%253A158076408%253Bsrc%253ALazadaMainSrp%253Brn%253A3581c7a410f7b11c745622b46624f5c7%253Bregion%253Anp%253Bsku%253A158076408_NP%253Bprice%253A600%253Bclient%253Adesktop%253Bsupplier_id%253A1004772%253Bbiz_source%253Ah5_external%253Bslot%253A39%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10002417%253Bitem_id%253A158076408%253Bsku_id%253A1134011847%253Bshop_id%253A14643%253BtemplateInfo%253A"
+            }
+        ],
+        "breadcrumb": [
+            {
+                "url": "https://www.daraz.com.np",
+                "title": "Home"
+            },
+            {
+                "title": "Search Results"
+            }
+        ],
+        "sortBar": {
+            "tItemType": "nt_sortbar",
+            "filter": "Filter",
+            "style": "wf",
+            "sortItems": [
+                {
+                    "name": "Popularity",
+                    "tip": "Best Match",
+                    "isActive": "true",
+                    "value": "popularity",
+                    "key": "sort",
+                    "tabName": ""
+                },
+                {
+                    "name": "Price-ASC",
+                    "tip": "Price low to high",
+                    "value": "priceasc",
+                    "key": "sort",
+                    "tabName": ""
+                },
+                {
+                    "name": "Price-DESC",
+                    "tip": "Price high to low",
+                    "value": "pricedesc",
+                    "key": "sort",
+                    "tabName": ""
+                }
+            ],
+            "hiddenLayoutBtn": false,
+            "showFilterBtn": true,
+            "hasFilter": false
+        },
+        "resultTips": {
+            "tItemType": "nt_resulttips",
+            "tips": "10092 items found for \"{$0}\"",
+            "keywords": [
+                {
+                    "text": "sugar"
+                }
+            ]
+        },
+        "linksInfo": []
+    },
+    "mainInfo": {
+        "errorMsg": "",
+        "bizCode": 0,
+        "totalResults": "4080",
+        "pageSize": "40",
+        "page": "1",
+        "hiddenLayoutBtn": false,
+        "layoutInfo": {
+            "listHeader": [
+                "didYouMean",
+                "campaignBanner",
+                "categoryBar",
+                "brandBar",
+                "superStore",
+                "banner",
+                "resultTips",
+                "navCategory",
+                "hotDeal",
+                "emptyResult",
+                "recQuery",
+                "emptyResultBannerTips",
+                "recommendTitle"
+            ],
+            "stickyHeader": [
+                "reminderBanner"
+            ],
+            "sceneHeader": [],
+            "halfStickyHeader": [
+                "sortBar",
+                "preposeFilter"
+            ]
+        },
+        "pageType": "searchList",
+        "gridTitleLine": "2",
+        "trackParams": {},
+        "userId": "",
+        "anonUid": "b3bc75c8-0be0-4a41-df66-5669be58f8e7",
+        "cate_id": "10002416,10002417",
+        "hyperspaceInfo": "",
+        "currency": "Rs. ",
+        "currencyOnRight": "false",
+        "currencySpace": "false",
+        "isShowFeedbackForm": "false",
+        "showThumbs": "false",
+        "allProductURL": "/all-products/",
+        "addToCartURL": "//cart.daraz.com.np/cart/api/add",
+        "cluster": "fiber2_os30",
+        "column": 2,
+        "bucketId": "v3",
+        "auctionType": 1,
+        "noMorePages": false,
+        "srpName": "LazadaMainSrp",
+        "params": "{\"src\":\"h5_external\"}",
+        "searchScenario": "keyword",
+        "hiddenShopChangeBtn": true,
+        "selectedFilters": {},
+        "expParams": {
+            "isBadgeAutoScroll": "0",
+            "filterLazyLoad": "0",
+            "storeTabRightOfSortBar": "0",
+            "enableFeedbackAssistant": "1",
+            "disableScreenSimple": "1",
+            "disableFspImagePreload": "0"
+        },
+        "filterLazyLoad": false,
+        "RN": "3581c7a410f7b11c745622b46624f5c7",
+        "style": "wf",
+        "lang": "en",
+        "venture": "NP",
+        "themes": [
+            {
+                "bgColor": "#c27a9f",
+                "color": "#f5f3f3",
+                "font-size": "11",
+                "labelMarginLeft": "0",
+                "key": "150318",
+                "startColor": "#c27a9f"
+            },
+            {
+                "img": "https://img.lazcdn.com/us/lzd-onepiece/e398b801ac389adfdbb320a01f4309741718354855670.png",
+                "width": "100",
+                "labelMarginLeft": "0",
+                "key": "116120",
+                "height": "36"
+            },
+            {
+                "img": "https://img.lazcdn.com/us/lzd-onepiece/bf424e522a0d117761cca560b15529421718354903890.png",
+                "width": "288",
+                "labelMarginLeft": "0",
+                "key": "116121",
+                "height": "36"
+            },
+            {
+                "img": "https://img.lazcdn.com/us/lzd-onepiece/9bf32d6f3e459fd5783a3b367ebf740d1717492822114.png",
+                "width": "188",
+                "labelMarginLeft": "0",
+                "key": "116044",
+                "height": "36"
+            },
+            {
+                "img": "https://img.lazcdn.com/us/lzd-onepiece/7d44bb39fe91237499f49a0ee76bbdab1717492966813.png",
+                "width": "66",
+                "labelMarginLeft": "0",
+                "key": "116117",
+                "height": "26"
+            }
+        ],
+        "q": "sugar",
+        "rt": {
+            "all": 202
+        },
+        "serverResponseTime": 1737093287771,
+        "reqParams": "{\"src\":\"h5_external\",\"refer\":\"https://www.daraz.com.np/\",\"scenario\":\"keyword-dynamic\",\"ab_test\":\"BASE:0\"}",
+        "pageTitle": "Buy sugar Online at Best Price in Nepal - Daraz.com.np"
+    },
+    "seoInfo": {
+        "pageTitle": "Buy sugar Online at Best Price in Nepal - Daraz.com.np",
+        "description": "Nepal - Shop for Best Online at Daraz.com.np Wide Variety of sugar. Great Prices, Even Better Service.",
+        "robotsContent": "index,follow",
+        "canonicalHref": "/catalog/?q=sugar",
+        "androidDeepLink": "android-app://com.lazada.android/lazada/np/page?url_key=%2Fcatalog%2F%3Fq%3Dsugar&utm_campaign=%2Fcatalog%2F%3Fq%3Dsugar&utm_medium=organic&utm_source=google_app_indexing&utm_from=search",
+        "nextHref": "/catalog/?page=2&q=sugar",
+        "internalLink": [],
+        "h1": "",
+        "itemListSchema": {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "url": "//www.daraz.com.np/products/sara-foods-brown-sugar-1kg-i127043926.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "url": "//www.daraz.com.np/products/gulmeli-thorgelo-gudh-1-kg-i103482531.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "url": "//www.daraz.com.np/products/big-size-sugar-5kg-i126007485.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "url": "//www.daraz.com.np/products/big-size-sugar-1kg-i125196003.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "url": "//www.daraz.com.np/products/kirana-jaggery-khane-sakkhar-1kg-i104446353.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 6,
+                    "url": "//www.daraz.com.np/products/kirana-jaggery-khane-sakkhar-500g-i105170589.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 7,
+                    "url": "//www.daraz.com.np/products/sugar-plain-1kg-i125192328.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 8,
+                    "url": "//www.daraz.com.np/products/fresh-sugar-safed-cheeni-5kg-i161933454.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 9,
+                    "url": "//www.daraz.com.np/products/caster-wheel-i114083.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 10,
+                    "url": "//www.daraz.com.np/products/icing-sugar-200g-i127992790.html"
+                }
+            ]
+        },
+        "breadcrumbSchema": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "item": {
+                        "@id": "https://www.daraz.com.np",
+                        "name": "Home"
+                    },
+                    "@type": "ListItem",
+                    "position": 1
+                }
+            ]
+        },
+        "breadcrumbData": [
+            {
+                "categoryName": "Home",
+                "categoryLink": "https://www.daraz.com.np"
+            },
+            {
+                "categoryName": "Search Results"
+            }
+        ],
+        "productSchema": {
+            "@type": "Product",
+            "@context": "https://schema.org",
+            "name": "Kirana Jaggery (Khane Sakkhar) 1kg",
+            "image": "https://static-01.daraz.com.np/p/a02fe1b78c83eac7ebbc85d21e6535c1.jpg",
+            "sku": "104446353_NP",
+            "mpn": "1025474517",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.6",
+                "ratingCount": 43
+            },
+            "brand": {
+                "@type": "Organization",
+                "name": "No Brand"
+            }
+        }
+    }
+}
