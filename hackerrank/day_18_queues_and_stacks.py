@@ -12,7 +12,7 @@ class Solution:
     def enqueueCharacter(self, char: str):
         if self.queue is None:
             self.queue = []
-        self.queue.insert(0, char)
+        self.queue.append(char)
 
     def popCharacter(self):
         return self.stack.pop()
