@@ -1,0 +1,6 @@
+find the div with class container (let's call it container) and the first div inside it with class product_description (call it product_description) and then:
+- inside product_description find the first h4 with class product_title and get the text of anchor tag inside that h4. 
+- inside product_description find span with class price, get it's inner text
+- inside product_description find with with class pr_desc, then the p (which is inside pr_desc) tag's innertext 
+- inside container find the first ul with class product-meta.
+- inside product-meta there are different li, give their inner value as a list of strings.
