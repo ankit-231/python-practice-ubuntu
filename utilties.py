@@ -50,6 +50,7 @@ if __name__ == "__main__":
                     slug = slug + ".py"
 
                 if actual_operation == "hackpy":
+                    slug = slug + ".py"
                     directory = "hackerrank"
                     create_file(directory, slug)
                     print(f"Created {slug} in {directory}.")
