@@ -9,3 +9,4 @@ seaborn
 python-slugify
 requests
 beautifulsoup4
+gunicorn==23.0.0
