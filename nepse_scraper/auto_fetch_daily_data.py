@@ -4,13 +4,16 @@ import os
 import time
 from nepse import Nepse
 
+TODAY_DATE = "2025-08-13"
+# TODAY_DATE = datetime.now().strftime("%Y-%m-%d")
+
 # Constants
-REQUEST_WAIT_TIME = 10  # seconds between API calls
-DATA_DIR = "nepse_scraper/main_data/historical_data"
+REQUEST_WAIT_TIME = 2  # seconds between API calls
+DATA_DIR = f"nepse_scraper/main_data/daily_data/{TODAY_DATE}"
 LOG_DIR = "nepse_scraper/main_data/logs"
-LOG_FILE = os.path.join(LOG_DIR, "data_fetching.log")
-PAGE_SIZE = 100
-TOTAL_PAGES_TO_FETCH = 2  # pages: 0 and 1
+LOG_FILE = os.path.join(LOG_DIR, "daily_data_fetching.log")
+PAGE_SIZE = 10
+TOTAL_PAGES_TO_FETCH = 1  # pages: 0 and 1
 
 # Setup Nepse API
 nepse = Nepse()
@@ -44,7 +47,8 @@ for stock in stocks_to_process:
     start_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     # Stock folder
-    stock_dir = os.path.join(DATA_DIR, stock_symbol)
+    # stock_dir = os.path.join(DATA_DIR)
+    stock_dir = DATA_DIR
     os.makedirs(stock_dir, exist_ok=True)
 
     log_message(
@@ -58,7 +62,7 @@ for stock in stocks_to_process:
     for page_num in range(TOTAL_PAGES_TO_FETCH):
         try:
             stock_price_history = nepse.requestGETAPI(
-                f"/api/nots/market/security/price/{stock_id}?page={page_num}&size={PAGE_SIZE}"
+                f"/api/nots/market/security/price/{stock_id}?businessDate={TODAY_DATE}&page={page_num}&size={PAGE_SIZE}"
             )
 
             content = stock_price_history.get("content", [])
@@ -86,7 +90,7 @@ for stock in stocks_to_process:
             all_dates.extend(dates)
 
             # Save page file
-            output_path = os.path.join(stock_dir, f"page_{page_num}.json")
+            output_path = os.path.join(stock_dir, f"{stock_symbol}.json")
             with open(output_path, "w") as f:
                 json.dump(stock_price_history, f, indent=4)
 

@@ -10,3 +10,4 @@ python-slugify
 requests
 beautifulsoup4
 gunicorn==23.0.0
+nepse-scraper==0.1.7

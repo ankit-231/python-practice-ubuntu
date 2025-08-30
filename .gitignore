@@ -1,3 +1,11 @@
 venv/
 
 __pycache__/
+
+venv_3.11
+
+*.log
+
+main_data/
+
+*.json
