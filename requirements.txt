@@ -16,3 +16,5 @@ pandas
 numpy
 ta-lib
 ta
+
+playsound

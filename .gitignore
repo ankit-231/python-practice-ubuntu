@@ -9,3 +9,5 @@ venv_3.11
 main_data/
 
 *.json
+
+*.wav
