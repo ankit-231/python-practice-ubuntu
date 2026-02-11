@@ -10,8 +10,15 @@ except ImportError:
         "Install it with: pip install playsound"
     )
 
-MINUTES = 10
-SECONDS = 0
+
+while True:
+    try:
+        MINUTES = int(input("Enter minutes: "))
+        SECONDS = int(input("Enter seconds: "))
+        break
+    except Exception:
+        print("Invalid input. Please enter a valid number.")
+
 
 PLAY_SOUND_FOR_X_TIMES = 1
 PAUSE_BETWEEN_SOUNDS = 1  # Seconds
