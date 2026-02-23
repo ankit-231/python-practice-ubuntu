@@ -1,20 +1,20 @@
-opencv-python==4.10.0.84
-plotly
-PyOpenGL==3.1.7
-matplotlib
-selenium
-pyttsx3
-pandas
-seaborn
-python-slugify
-requests
-beautifulsoup4
-gunicorn==23.0.0
-nepse-scraper==0.1.7
+# opencv-python==4.10.0.84
+# plotly
+# PyOpenGL==3.1.7
+# matplotlib
+# selenium
+# pyttsx3
+# pandas
+# seaborn
+# python-slugify
+# requests
+# beautifulsoup4
+# gunicorn==23.0.0
+# nepse-scraper==0.1.7
 
-pandas
-numpy
-ta-lib
-ta
+# pandas
+# numpy
+# ta-lib
+# ta
 
 playsound
