@@ -1,15 +1,20 @@
+"""
+This script works with https://dict.leo.org/german-english/der%20Tag this website flawlessly. But for some reason, the same script has to be run twice, the first time, the file downloaded is of 0 bytes and second time it gives the right file.
+"""
+
 import os
 
 import requests
 
-BASE_FILE_DIR = "files/german-audio"
+# BASE_FILE_DIR = "files/german-audio"
+BASE_FILE_DIR = "/home/ankit/MyFiles/Germany/German/Words and Phrases"
 
 
 def download_audio(url: str, filename: str):
     try:
         response = requests.get(url, stream=True)
         response.raise_for_status()  # Raise error for bad status codes
-        os.makedirs(BASE_FILE_DIR, exist_ok=True)
+        # os.makedirs(BASE_FILE_DIR, exist_ok=True)
         with open(filename, "wb") as f:
             for chunk in response.iter_content(chunk_size=8192):
                 if chunk:
@@ -106,6 +111,6 @@ def generate_full_path_with_extension(filename: str, url: str):
 
 
 if __name__ == "__main__":
-    url = "https://dict.leo.org/media/audio/B7NBkcBfiRlJ5y1o4uC-og.ogg"
-    full_path = generate_full_path_with_extension("trinken", url)
+    url = "https://dict.leo.org/media/audio/rcqMzQB-tJNIoEDfCLzkGQ.ogg"
+    full_path = generate_full_path_with_extension("der Tag", url)
     download_audio(url, full_path)
