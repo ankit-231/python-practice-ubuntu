@@ -1,29 +1,49 @@
 """
-This script works with https://dict.leo.org/german-english/der%20Tag this website flawlessly. But for some reason, the same script has to be run twice, the first time, the file downloaded is of 0 bytes and second time it gives the right file.
+This script works with https://dict.leo.org/german-english/der%20Tag this website flawlessly.
 """
 
 import os
+import time
 
 import requests
 
 # BASE_FILE_DIR = "files/german-audio"
 BASE_FILE_DIR = "/home/ankit/MyFiles/Germany/German/Words and Phrases"
 
+session = requests.Session()
 
-def download_audio(url: str, filename: str):
-    try:
-        response = requests.get(url, stream=True)
-        response.raise_for_status()  # Raise error for bad status codes
-        # os.makedirs(BASE_FILE_DIR, exist_ok=True)
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64)",
+    "Referer": "https://dict.leo.org/german-english/",
+}
+
+
+def prepare_session(word):
+    """Visit LEO page first to set cookies"""
+    url = f"https://dict.leo.org/german-english/{word}"
+    session.get(url, headers=HEADERS, timeout=10)
+
+
+def download_audio(url, filename, retries=2):
+    for attempt in range(retries):
+        response = session.get(url, headers=HEADERS, stream=True, timeout=15)
+        response.raise_for_status()
+
+        total = 0
         with open(filename, "wb") as f:
-            for chunk in response.iter_content(chunk_size=8192):
+            for chunk in response.iter_content(8192):
                 if chunk:
+                    total += len(chunk)
                     f.write(chunk)
 
-        print(f"Download complete: {filename}")
+        if total > 0:
+            print("Downloaded:", filename)
+            return
 
-    except requests.exceptions.RequestException as e:
-        print(f"Download failed: {e}")
+        print("Empty file, retrying...")
+        time.sleep(1)
+
+    raise Exception("Download failed after retries")
 
 
 MUSIC_FILE_EXTENSIONS = [
@@ -111,6 +131,12 @@ def generate_full_path_with_extension(filename: str, url: str):
 
 
 if __name__ == "__main__":
-    url = "https://dict.leo.org/media/audio/rcqMzQB-tJNIoEDfCLzkGQ.ogg"
-    full_path = generate_full_path_with_extension("der Tag", url)
+    english_name = "roof"
+    german_name = "das Dach"
+    url = "https://dict.leo.org/media/audio/EYKT8OHj9n99F2DcSDO5Lw.ogg"
+    full_path = generate_full_path_with_extension(german_name, url)
     download_audio(url, full_path)
+
+    print("saved to", full_path)
+    print("english name", english_name)
+    print("german name", german_name)
