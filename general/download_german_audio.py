@@ -2,6 +2,7 @@
 This script works with https://dict.leo.org/german-english/der%20Tag this website flawlessly.
 """
 
+import base64
 import os
 import time
 
@@ -117,7 +118,7 @@ MUSIC_FILE_EXTENSIONS = [
 
 def guess_filetype_from_url(url: str):
     extension = url.split(".")[-1]
-    print("ogg" in MUSIC_FILE_EXTENSIONS)
+    # print("ogg" in MUSIC_FILE_EXTENSIONS)
     if extension.lower() in MUSIC_FILE_EXTENSIONS:
         return extension.lower()
     return None
@@ -131,12 +132,48 @@ def generate_full_path_with_extension(filename: str, url: str):
 
 
 if __name__ == "__main__":
-    english_name = "roof"
-    german_name = "das Dach"
-    url = "https://dict.leo.org/media/audio/EYKT8OHj9n99F2DcSDO5Lw.ogg"
+    # english_name = "To Live"
+    # german_name = "wohin"
+    # url = "https://dict.leo.org/media/audio/7DgsnY51kPJU7Dcl6ulASw.ogg"
+    german_name = input("German Name: ")
+    url = input("URL: ")
     full_path = generate_full_path_with_extension(german_name, url)
     download_audio(url, full_path)
 
-    print("saved to", full_path)
-    print("english name", english_name)
-    print("german name", german_name)
+    print("saved to:\n", full_path)
+    # print("english name", english_name)
+    print("german name:\n", german_name)
+
+# /home/ankit/MyFiles/self_practice/python_prac/.venv/bin/python /home/ankit/MyFiles/self_practice/python_prac/general/download_german_audio.py
+
+
+ANKI_CONNECT_URL = "http://localhost:8765"
+
+
+def invoke(action, **params):
+    return requests.post(
+        ANKI_CONNECT_URL, json={"action": action, "version": 6, "params": params}
+    ).json()
+
+
+def add_note(deck_name, model_name, front, back, audio_filename):
+    note = {
+        "deckName": deck_name,
+        "modelName": model_name,
+        "fields": {"Front": front, "Back": back + f"<br>[sound:{audio_filename}]"},
+        "options": {"allowDuplicate": False},
+        "tags": ["german"],
+    }
+
+    return invoke("addNote", note=note)
+
+
+def store_audio_in_anki(full_path):
+    filename = os.path.basename(full_path)
+
+    with open(full_path, "rb") as f:
+        data = base64.b64encode(f.read()).decode("utf-8")
+
+    invoke("storeMediaFile", filename=filename, data=data)
+
+    return filename
