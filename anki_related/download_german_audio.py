@@ -8,6 +8,8 @@ import time
 
 import requests
 
+from anki_related.anki import add_note, store_audio_in_anki
+
 # BASE_FILE_DIR = "files/german-audio"
 BASE_FILE_DIR = "/home/ankit/MyFiles/Germany/German/Words and Phrases"
 
@@ -135,13 +137,28 @@ if __name__ == "__main__":
     # english_name = "To Live"
     # german_name = "wohin"
     # url = "https://dict.leo.org/media/audio/7DgsnY51kPJU7Dcl6ulASw.ogg"
+    english_name = input("English Name: ")
     german_name = input("German Name: ")
     url = input("URL: ")
     full_path = generate_full_path_with_extension(german_name, url)
     download_audio(url, full_path)
-
     print("saved to:\n", full_path)
+
+    audio_filename = store_audio_in_anki(full_path)
+
+    add_note(
+        deck_name="Learning German",
+        model_name="Basic",
+        front=english_name,
+        back=german_name,
+        audio_filename=audio_filename,
+    )
+    print("Note added to Anki with audio:", audio_filename)
+    print("front:", english_name)
+    print("back:\n", german_name)
+    print("deck:", "Learning German")
+    print("model:", "Basic")
     # print("english name", english_name)
-    print("german name:\n", german_name)
+    # print("german name:\n", german_name)
 
 # /home/ankit/MyFiles/self_practice/python_prac/.venv/bin/python /home/ankit/MyFiles/self_practice/python_prac/general/download_german_audio.py
