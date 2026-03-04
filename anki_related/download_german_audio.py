@@ -162,3 +162,4 @@ if __name__ == "__main__":
     # print("german name:\n", german_name)
 
 # /home/ankit/MyFiles/self_practice/python_prac/.venv/bin/python /home/ankit/MyFiles/self_practice/python_prac/general/download_german_audio.py
+# py -m anki_related.download_german_audio
