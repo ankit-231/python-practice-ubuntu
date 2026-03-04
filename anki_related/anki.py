@@ -1,0 +1,35 @@
+import requests
+
+import os
+import base64
+
+ANKI_CONNECT_URL = "http://localhost:8765"
+
+
+def invoke(action, **params):
+    return requests.post(
+        ANKI_CONNECT_URL, json={"action": action, "version": 6, "params": params}
+    ).json()
+
+
+def add_note(deck_name, model_name, front, back, audio_filename):
+    note = {
+        "deckName": deck_name,
+        "modelName": model_name,
+        "fields": {"Front": front, "Back": back + f"<br>[sound:{audio_filename}]"},
+        "options": {"allowDuplicate": False},
+        "tags": ["german"],
+    }
+
+    return invoke("addNote", note=note)
+
+
+def store_audio_in_anki(full_path):
+    filename = os.path.basename(full_path)
+
+    with open(full_path, "rb") as f:
+        data = base64.b64encode(f.read()).decode("utf-8")
+
+    invoke("storeMediaFile", filename=filename, data=data)
+
+    return filename

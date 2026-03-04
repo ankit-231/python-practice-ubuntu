@@ -145,35 +145,3 @@ if __name__ == "__main__":
     print("german name:\n", german_name)
 
 # /home/ankit/MyFiles/self_practice/python_prac/.venv/bin/python /home/ankit/MyFiles/self_practice/python_prac/general/download_german_audio.py
-
-
-ANKI_CONNECT_URL = "http://localhost:8765"
-
-
-def invoke(action, **params):
-    return requests.post(
-        ANKI_CONNECT_URL, json={"action": action, "version": 6, "params": params}
-    ).json()
-
-
-def add_note(deck_name, model_name, front, back, audio_filename):
-    note = {
-        "deckName": deck_name,
-        "modelName": model_name,
-        "fields": {"Front": front, "Back": back + f"<br>[sound:{audio_filename}]"},
-        "options": {"allowDuplicate": False},
-        "tags": ["german"],
-    }
-
-    return invoke("addNote", note=note)
-
-
-def store_audio_in_anki(full_path):
-    filename = os.path.basename(full_path)
-
-    with open(full_path, "rb") as f:
-        data = base64.b64encode(f.read()).decode("utf-8")
-
-    invoke("storeMediaFile", filename=filename, data=data)
-
-    return filename
