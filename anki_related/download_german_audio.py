@@ -144,6 +144,8 @@ if __name__ == "__main__":
     english_name = input("English Name: ")
     german_name = input("German Name: ")
     url = input("URL: ")
+    back_extra = input("Back Extra (optional): ")
+    # front_extra = input("Front Extra (optional): ")
     full_path = generate_full_path_with_extension(german_name, url)
     download_audio(url, full_path)
     print("saved to:\n", full_path)
@@ -155,6 +157,7 @@ if __name__ == "__main__":
         model_name=MODEL_NAME,
         front=english_name,
         back=german_name,
+        back_extra=back_extra,
         audio_filename=audio_filename,
     )
     if SHOW_CARD_AFTER_ADDING:

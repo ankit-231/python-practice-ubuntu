@@ -12,11 +12,16 @@ def invoke(action, **params):
     ).json()
 
 
-def add_note(deck_name, model_name, front, back, audio_filename):
+def add_note(deck_name, model_name, front, back, back_extra="", audio_filename=""):
+    if back_extra:
+        back_extra = "<br>" + back_extra
     note = {
         "deckName": deck_name,
         "modelName": model_name,
-        "fields": {"Front": front, "Back": back + f"<br>[sound:{audio_filename}]"},
+        "fields": {
+            "Front": front,
+            "Back": back + back_extra + f"<br>[sound:{audio_filename}]",
+        },
         "options": {"allowDuplicate": False},
         "tags": ["german"],
     }
