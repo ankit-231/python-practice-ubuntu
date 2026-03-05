@@ -21,7 +21,8 @@ def add_note(deck_name, model_name, front, back, audio_filename):
         "tags": ["german"],
     }
 
-    return invoke("addNote", note=note)
+    result = invoke("addNote", note=note)
+    return result["result"]  # <-- note ID
 
 
 def store_audio_in_anki(full_path):

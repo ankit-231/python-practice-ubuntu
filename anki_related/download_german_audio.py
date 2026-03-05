@@ -8,7 +8,7 @@ import time
 
 import requests
 
-from anki_related.anki import add_note, store_audio_in_anki
+from anki_related.anki import add_note, invoke, store_audio_in_anki
 
 # BASE_FILE_DIR = "files/german-audio"
 BASE_FILE_DIR = "/home/ankit/MyFiles/Germany/German/Words and Phrases"
@@ -137,6 +137,10 @@ if __name__ == "__main__":
     # english_name = "To Live"
     # german_name = "wohin"
     # url = "https://dict.leo.org/media/audio/7DgsnY51kPJU7Dcl6ulASw.ogg"
+
+    SHOW_CARD_AFTER_ADDING = False
+    DECK_NAME = "Learning German Weekdays"
+    MODEL_NAME = "Basic"
     english_name = input("English Name: ")
     german_name = input("German Name: ")
     url = input("URL: ")
@@ -146,18 +150,20 @@ if __name__ == "__main__":
 
     audio_filename = store_audio_in_anki(full_path)
 
-    add_note(
-        deck_name="Learning German",
-        model_name="Basic",
+    note_id = add_note(
+        deck_name=DECK_NAME,
+        model_name=MODEL_NAME,
         front=english_name,
         back=german_name,
         audio_filename=audio_filename,
     )
+    if SHOW_CARD_AFTER_ADDING:
+        invoke("guiBrowse", query=f"nid:{note_id}")
     print("Note added to Anki with audio:", audio_filename)
     print("front:", english_name)
     print("back:\n", german_name)
-    print("deck:", "Learning German")
-    print("model:", "Basic")
+    print("deck:", DECK_NAME)
+    print("model:", MODEL_NAME)
     # print("english name", english_name)
     # print("german name:\n", german_name)
 
