@@ -1,4 +1,5 @@
 """
+download_german_audio.py
 This script works with https://dict.leo.org/german-english/der%20Tag this website flawlessly.
 """
 

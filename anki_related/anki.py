@@ -1,3 +1,8 @@
+"""
+anki.py
+This file contains functions to interact with Anki using AnkiConnect.
+"""
+
 import requests
 
 import os
