@@ -19,3 +19,4 @@
 
 playsound
 requests
+bs4

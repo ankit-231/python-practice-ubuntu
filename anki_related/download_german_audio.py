@@ -3,9 +3,11 @@ download_german_audio.py
 This script works with https://dict.leo.org/german-english/der%20Tag this website flawlessly.
 """
 
-import base64
-import os
+import re
 import time
+import unicodedata
+from pathlib import Path
+
 
 import requests
 
@@ -128,10 +130,30 @@ def guess_filetype_from_url(url: str):
 
 
 def generate_full_path_with_extension(filename: str, url: str):
+    normalized_german_name = normalize_filename(filename)
     extension = guess_filetype_from_url(url)
     if extension is None:
         raise ValueError("Extension could not be guessed")
-    return f"{BASE_FILE_DIR}/{filename}.{extension}"
+    return f"{BASE_FILE_DIR}/{normalized_german_name}.{extension}"
+
+
+def normalize_filename(name: str, replacement: str = "_", max_length: int = 255) -> str:
+    # Normalize unicode → ASCII
+    name = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+
+    # Replace spaces
+    name = name.replace(" ", replacement)
+
+    # Remove invalid characters INCLUDING colon and period
+    name = re.sub(r"[^\w\-]", "", name)
+
+    # Collapse repeated replacements
+    name = re.sub(rf"{re.escape(replacement)}+", replacement, name)
+
+    # Trim
+    name = name.strip(replacement)
+
+    return name[:max_length]
 
 
 if __name__ == "__main__":
@@ -147,6 +169,7 @@ if __name__ == "__main__":
     url = input("URL: ")
     back_extra = input("Back Extra (optional): ")
     # front_extra = input("Front Extra (optional): ")
+
     full_path = generate_full_path_with_extension(german_name, url)
     download_audio(url, full_path)
     print("saved to:\n", full_path)
