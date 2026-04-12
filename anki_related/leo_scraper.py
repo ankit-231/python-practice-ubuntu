@@ -27,7 +27,7 @@ def scrape_leo(word: str):
     if len(cells) < 8:
         return None
 
-    english = cells[4].get_text(strip=True)
+    english = " ".join(cells[4].get_text(" ", strip=True).split())
     german = " ".join(cells[7].get_text(" ", strip=True).split())
 
     # Audio

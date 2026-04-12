@@ -5,7 +5,7 @@ from .anki import add_note, invoke, store_audio_in_anki
 
 from .download_german_audio import download_audio, generate_full_path_with_extension
 
-DECK_NAME = "Learning German Weekdays"
+DECK_NAME = "Learning German"
 MODEL_NAME = "Basic"
 
 
