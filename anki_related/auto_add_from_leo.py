@@ -11,7 +11,7 @@ MODEL_NAME = "Basic"
 
 def main():
 
-    word = input("Search word URL: ")
+    word = input("Enter Word: ")
 
     print("\nsearching...\n")
 
