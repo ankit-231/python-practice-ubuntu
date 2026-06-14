@@ -20,3 +20,5 @@
 playsound
 requests
 bs4
+
+gh-profiler
