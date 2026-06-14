@@ -28,7 +28,7 @@ def add_note(deck_name, model_name, front, back, back_extra="", audio_filename="
             "Back": back + back_extra + f"<br>[sound:{audio_filename}]",
         },
         "options": {"allowDuplicate": False},
-        "tags": ["german"],
+        "tags": ["german", "word_or_phrase"],
     }
 
     result = invoke("addNote", note=note)
